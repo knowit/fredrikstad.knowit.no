@@ -13,14 +13,14 @@ block content
       h1 Fagseminar
 
       p.lead
-        | Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Høsten 2016 vil den bli avholdt #{event.longDate} i #{event.city}, #{event.country}.  
+        | Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Høsten 2016 vil den bli avholdt #{event.longDate} i #{event.city}, #{event.country}.
 
-      p.lead 
+      p.lead
         | Tidligere har vi besøkt Istanbul, Madrid, Dublin, Svalbard, Reykjavik etc.
 
   // Comment out these to include the program...
-  // include ./includes/schedule.jade
-  // include ./includes/talks.jade
+  include ./includes/schedule.jade
+  include ./includes/talks.jade
 
   section#location.location
     .wrapper

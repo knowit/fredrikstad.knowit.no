@@ -12,7 +12,8 @@ section#schedule.schedule(class={progComView: progComView})
               h4= collection.time
               each entry in collection.entries
                 .schedule-entry
-                  h5 Rom: #{entry.room}
+                  h5
+                    b #{entry.room}
                   each slot in entry.slots
                     - var talk = talks[slot]
                     if talk

@@ -9,7 +9,170 @@
         "gmapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091299.1382406687!2d8.698165322408654!3d59.21126238152752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46440327712c850d%3A0x242977c411e3527a!2sQuality+Hotel+Fredrikstad!5e0!3m2!1sno!2sno!4v1471247393134"
     },
     "schedules": [
+      {
+        "day": "Fredrag 14. oktober",
+        "collections": [
+          {
+              "time": "14:00-15:00 Fag",
+              "entries": [
+                {
+                    "room": "Scala",
+                    "slots": ["scala_kjoter", "feil_scala", "scala_script"]
+                },
+                {
+                    "room": "Cloud",
+                    "slots": ["knowit_cloud", "sky_ting", "dibk_sky"]
+                },
+                {
+                    "room": "UX & Dev Coop",
+                    "slots": ["ux_utvikler", "fuse", "designer_vs_utvikler"]
+                },
+                {
+                    "room": "Kanban",
+                    "slots": ["kanban_workshop"]
+                }
+              ]
+          },
+          {
+              "time": "15:00-15:15 Pause",
+              "isBreak": true
+          },
+          {
+              "time": "15:15-16:15 Fag",
+              "entries": [
+                {
+                    "room": "Code & Frameworks",
+                    "slots": ["clean_code", "final_const", "spring_boot", "sjakkmotor"]
+                },
+                {
+                    "room": "Tools",
+                    "slots": ["jenkins_2", "beyond_compare", "git", "postman"]
+                },
+                {
+                    "room": "Frontend",
+                    "slots": ["storybook", "elm", "hololens"]
+                },
+                {
+                    "room": "Kanban",
+                    "slots": ["kanban_workshop"]
+                }
+              ]
+          },
+          {
+              "time": "16:15-16:30 Pause",
+              "isBreak": true
+          },
+          {
+              "time": "16:30-18:00 Open Space (inkl. mat + øl)",
+              "entries": [
+                {
+                    "room": "Rom 1",
+                    "slots": ["openspace"]
+                },
+                {
+                    "room": "Rom 2",
+                    "slots": ["openspace"]
+                },
+                {
+                    "room": "Rom 3",
+                    "slots": ["openspace"]
+                },
+                {
+                    "room": "Rom 4",
+                    "slots": ["openspace"]
+                }
+              ]
+          },
+          {
+              "time": "18:00-20:00 Fritid før middag",
+              "isBreak": true
+          }
+        ]
+      },
+      {
+        "day": "Lørdag 15. oktober",
+        "collections": [
+          {
+              "time": "10:00-10:30 God morgen & fagstrategi",
+              "entries": [
+                {
+                    "room": "Felles",
+                    "slots": ["fagstrategi"]
+                }
+              ]
+          },
+          {
+              "time": "10:30-10:45 Pause",
+              "isBreak": true
+          },
+          {
+              "time": "10:45-11:45 Foredrag",
+              "entries": [
+                {
+                    "room": "Felles",
+                    "slots": ["presentasjonsteknikk"]
+                }
+              ]
+          },
+          {
+              "time": "12:00-13:00 Fag",
+              "entries": [
+                {
+                    "room": "Arkitektur & metode",
+                    "slots": ["arne", "event_source", "c4"]
+                },
+                {
+                    "room": "Other Languages",
+                    "slots": ["sql", "kotlin", "max"]
+                },
+                {
+                    "room": "Soft skills",
+                    "slots": ["prosjekt_faggruppe", "mlaas", "øltapping", "ruter_fagruppe"]
+                }
+              ]
+          },
+          {
+              "time": "14:00 Buss hjem",
+              "isBreak": true
+          }
+        ]
+      }
     ],
     "talks": {
+        "fagstrategi": {
+            "pending": false,
+            "speakers": [
+              {
+                "name": "Jan Henrik Gundelsby",
+                "bio": "Jan Henrik er fagsjef i Knowit Objectnet. Han har 20 års erfaring med teknologi på JVMen. Har de siste årene syslet mye med applikasjonsdrift, mikrotjenester og DevOps sentralt i Oslo kommune. En ivrig lettvekts-fantast som forsøker å jobbe mot smidige arkitekturer og løsninger.",
+                "pic": "jhg.jpg",
+                "email": "jhg@knowit.no"
+              },
+                            {
+                "name": "Haakon Spilde",
+                "bio": "Haakon er fagsjef i Knowit Objectnet. Haakon er lidenskapelig opptatt av prosess og metode, med særlig fokus på Agile teknikker. Hvordan lære av sine feil, hvordan endre sine metoder og prosesser til det bedre og hvordan få et team til å fungere optimalt er tema som opptar Haakon.",
+                "pic": "hfs.jpg",
+                "email": "hfs@knowit.no"
+              }
+
+            ],
+            "title": "Fagstrategi",
+            "type": "Foredrag (30 min)",
+            "description": ""
+        },
+        "final_const": {
+            "pending": false,
+            "speakers": [
+              {
+                "name": "Ole Bakstad",
+                "bio": "Ole er en faglig engasjert utvikler som interesserer seg for alt fra programmering til utviklingsprosesser og organisasjonskultur. Spesielt interessert i hvordan tekniske valg påvirker måten man jobber på, jobbhverdagen til de ansatte og evnen til å skape verdi over tid. Aktiv medlem av JavaBin og JavaZone sin programkomité.",
+                "pic": "ob.jpg",
+                "email": "olebak@knowit.no"
+              }
+            ],
+            "title": "Final? Gi meg const!",
+            "type": "Lyntale (10 min)",
+            "description": "Som tidligere C++-utvikler var jeg fornøyd da jeg så at Java hadde et final-keyword. Gleden var dog kortvarig da jeg fant ut hvor liten effekt final faktisk har når man jobber i en stor og gammel kodebase. C og C++ er kanskje kjent for segfaults, minnelekasjer og udefinert oppførsel, men noe har de gjort rett. I denne talken introduserer jeg C++ sitt keyword const, hvilket problem dette løser og hvorfor Java burde ha noe tilsvarende."
+        }
     }
 }
