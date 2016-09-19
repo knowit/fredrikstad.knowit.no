@@ -4,16 +4,23 @@
 
 Development requirements: node.js.
 
-### Get code and install dependencies
+## Get code and install dependencies
 
-$ git clone git@github.com:knowit/fredrikstad.knowit.no.git
-$ cd fredrikstad.knowit.no
-$ npm install
+    git clone git@github.com:knowit/fredrikstad.knowit.no.git
+    cd fredrikstad.knowit.no
+    npm install
 
-### Change content
+## Build
 
-Blablabla edit stuff in templates
-blablabla `npm run build` builds index.htm
-blablabla `npm start` runs jade with watch
-blablabla don't forget to commit changes in index.html.
+To build the site run
+
+    npm run build
+
+This produces index.html which should be checked in.
+
+To run build site in real time when developing use:
+
+    npm start
+
+NB! This only handles changes to `.jade` files, not `viewmodel.json`
 
