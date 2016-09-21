@@ -173,6 +173,55 @@
             "title": "Final? Gi meg const!",
             "type": "Lyntale (10 min)",
             "description": "Som tidligere C++-utvikler var jeg fornøyd da jeg så at Java hadde et final-keyword. Gleden var dog kortvarig da jeg fant ut hvor liten effekt final faktisk har når man jobber i en stor og gammel kodebase. C og C++ er kanskje kjent for segfaults, minnelekasjer og udefinert oppførsel, men noe har de gjort rett. I denne talken introduserer jeg C++ sitt keyword const, hvilket problem dette løser og hvorfor Java burde ha noe tilsvarende."
+        },
+        "hololens": {
+          "pending": false,
+          "speakers": [
+            {
+              "name": "Christian Egeberg",
+              "bio": "Christian er en .Net utvikler med fokus på skyarkitektur og mobil. Han har dyp interesse for alle slags dingser og teknologi, liker å gjøre ting grundig, og tenker ofte utenfor bokser. Christian kan til tider sette umåtelig pris på bevisst å befinne seg på feil jorde.",
+              "pic": "ceg.jpeg",
+              "email": "ceg@knowit.no"
+            }
+          ],
+          "title": "Hvordan programmere Microsoft HoloLens",
+          "type": "Lyntale (20 min)",
+          "description": "Hvorfor er HoloLens forskjellig fra andre Virtual Reality briller, og hvordan programmerer man for den. API støtte for world coordinates, gestures, gaze, voice, spatial sound og spatial mapping. Ja, jeg tar med en HoloLens."
+        },
+        "max": {
+          "pending": false,
+          "speakers": [
+            {
+              "name": "Andreas Bade",
+              "bio": "Andreas har jobbet så lenge i Knowit at han har e-postadresse på to bokstaver. Han har programmert profesjonelt over i ti år, i hovedsak i Java, men også i .net. Han jobber nå som prosjektleder og teamleder, men er fortsatt glad i fikle med ting som er morsomme å fikle med.",
+              "pic": "ab.png",
+              "email": "ab@knowit.no"
+            }
+          ],
+          "title": "Hippieprogrammering i Max",
+          "type": "Lyntale (20 min)",
+          "description": "Max er et programmeringsspråk som lar deg kombinere media og hardware på kreative måter. Språket ble laget på midten av åttitallet, men er fortsatt poplært. Det er et visuelt programmeringsspråk. Til tross for dette, er språket givende å programmere i og har et godt utviklingsmiljø.<br/><br/>Språket finnes i en open source variant som heter Pure Data.<br/><br/>Dette foredraget vil gi en kort innføring i språket og demoer for å vise mulighetene. Hensikten er å gi en overordnet forståelse av språket og mulige anvendelsesområder.<br/><br/>Foredraget egner seg både for de som kan programmere og ikke-programmere. Språket er veldig annerledes andres språk, så en begrenset “teknisk balast” kan tilogmed være en fordel."
+        },
+        "fuse": {
+          "pending": false,
+          "speakers": [
+            {
+              "name": "Håkon Gulbrandsen & Joakim Lehn",
+              "bio": "Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?<br/>Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!<br/>Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!",
+              "pic": "hakon.gulbrandsen.png",
+              "email": "hakon.gulbrandsen@knowit.no,joakim.lehn@knowit.no"
+            },
+            {
+              "name": "",
+              "bio": "",
+              "pic": "joakim.lehn.jpg",
+              "email": ""
+            }
+          ],
+          "title": "Fuse - Real deal?",
+          "type": "Lyntale (10 min)",
+          "description": "Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?<br/>Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!<br/>Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!"
         }
+
     }
 }
