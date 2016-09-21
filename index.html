@@ -48,7 +48,11 @@
             <div class="schedule-entry">
               <h5><b>UX &amp; Dev Coop</b></h5>
               <div class="schedule-slot">ux_utvikler</div>
-              <div class="schedule-slot">fuse</div>
+              <div data-talk-id="fuse" class="schedule-slot">
+                <p><a id="p_fuse" href="#fuse">Fuse - Real deal?</a></p>
+                <address>Håkon Gulbrandsen &amp; Joakim Lehn, 
+                </address>
+              </div>
               <div class="schedule-slot">designer_vs_utvikler</div>
             </div>
             <div class="schedule-entry">
@@ -82,7 +86,11 @@
               <h5><b>Frontend</b></h5>
               <div class="schedule-slot">storybook</div>
               <div class="schedule-slot">elm</div>
-              <div class="schedule-slot">hololens</div>
+              <div data-talk-id="hololens" class="schedule-slot">
+                <p><a id="p_hololens" href="#hololens">Hvordan programmere Microsoft HoloLens</a></p>
+                <address>Christian Egeberg
+                </address>
+              </div>
             </div>
             <div class="schedule-entry">
               <h5><b>Kanban</b></h5>
@@ -147,7 +155,11 @@
               <h5><b>Other Languages</b></h5>
               <div class="schedule-slot">sql</div>
               <div class="schedule-slot">kotlin</div>
-              <div class="schedule-slot">max</div>
+              <div data-talk-id="max" class="schedule-slot">
+                <p><a id="p_max" href="#max">Hippieprogrammering i Max</a></p>
+                <address>Andreas Bade
+                </address>
+              </div>
             </div>
             <div class="schedule-entry">
               <h5><b>Soft skills</b></h5>
@@ -165,6 +177,23 @@
     <section id="talks" class="talks">
       <div class="content">
         <h1>Foredrag</h1>
+        <div id="fuse" data-talk-id="fuse" class="talks-entry">
+          <h4> Fuse - Real deal?</h4>
+          <p class="talk-description">Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?<br/>Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!<br/>Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!</p>
+          <p class="talk-meta">Lyntale (10 min),  <a href="#p_fuse"> Fredag 14. oktober 14:00-15:00, track: UX &amp; Dev Coop</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/hakon.gulbrandsen.png" class="bio-pic">
+              <div class="bio"><a href="mailto:hakon.gulbrandsen@knowit.no,joakim.lehn@knowit.no">Håkon Gulbrandsen &amp; Joakim Lehn</a>
+                <div class="bio-text">Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?&lt;br/&gt;Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!&lt;br/&gt;Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!</div>
+              </div>
+            </div>
+            <div class="speaker"><img src="pics/joakim.lehn.jpg" class="bio-pic">
+              <div class="bio"><a href="mailto:"></a>
+                <div class="bio-text"></div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="final_const" data-talk-id="final_const" class="talks-entry">
           <h4> Final? Gi meg const!</h4>
           <p class="talk-description">Som tidligere C++-utvikler var jeg fornøyd da jeg så at Java hadde et final-keyword. Gleden var dog kortvarig da jeg fant ut hvor liten effekt final faktisk har når man jobber i en stor og gammel kodebase. C og C++ er kanskje kjent for segfaults, minnelekasjer og udefinert oppførsel, men noe har de gjort rett. I denne talken introduserer jeg C++ sitt keyword const, hvilket problem dette løser og hvorfor Java burde ha noe tilsvarende.</p>
@@ -173,6 +202,18 @@
             <div class="speaker"><img src="pics/ob.jpg" class="bio-pic">
               <div class="bio"><a href="mailto:olebak@knowit.no">Ole Bakstad</a>
                 <div class="bio-text">Ole er en faglig engasjert utvikler som interesserer seg for alt fra programmering til utviklingsprosesser og organisasjonskultur. Spesielt interessert i hvordan tekniske valg påvirker måten man jobber på, jobbhverdagen til de ansatte og evnen til å skape verdi over tid. Aktiv medlem av JavaBin og JavaZone sin programkomité.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="hololens" data-talk-id="hololens" class="talks-entry">
+          <h4> Hvordan programmere Microsoft HoloLens</h4>
+          <p class="talk-description">Hvorfor er HoloLens forskjellig fra andre Virtual Reality briller, og hvordan programmerer man for den. API støtte for world coordinates, gestures, gaze, voice, spatial sound og spatial mapping. Ja, jeg tar med en HoloLens.</p>
+          <p class="talk-meta">Lyntale (20 min),  <a href="#p_hololens"> Fredag 14. oktober 15:15-16:15, track: Frontend</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/ceg.jpeg" class="bio-pic">
+              <div class="bio"><a href="mailto:ceg@knowit.no">Christian Egeberg</a>
+                <div class="bio-text">Christian er en .Net utvikler med fokus på skyarkitektur og mobil. Han har dyp interesse for alle slags dingser og teknologi, liker å gjøre ting grundig, og tenker ofte utenfor bokser. Christian kan til tider sette umåtelig pris på bevisst å befinne seg på feil jorde.</div>
               </div>
             </div>
           </div>
@@ -190,6 +231,18 @@
             <div class="speaker"><img src="pics/hfs.jpg" class="bio-pic">
               <div class="bio"><a href="mailto:hfs@knowit.no">Haakon Spilde</a>
                 <div class="bio-text">Haakon er fagsjef i Knowit Objectnet. Haakon er lidenskapelig opptatt av prosess og metode, med særlig fokus på Agile teknikker. Hvordan lære av sine feil, hvordan endre sine metoder og prosesser til det bedre og hvordan få et team til å fungere optimalt er tema som opptar Haakon.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="max" data-talk-id="max" class="talks-entry">
+          <h4> Hippieprogrammering i Max</h4>
+          <p class="talk-description">Max er et programmeringsspråk som lar deg kombinere media og hardware på kreative måter. Språket ble laget på midten av åttitallet, men er fortsatt poplært. Det er et visuelt programmeringsspråk. Til tross for dette, er språket givende å programmere i og har et godt utviklingsmiljø.<br/><br/>Språket finnes i en open source variant som heter Pure Data.<br/><br/>Dette foredraget vil gi en kort innføring i språket og demoer for å vise mulighetene. Hensikten er å gi en overordnet forståelse av språket og mulige anvendelsesområder.<br/><br/>Foredraget egner seg både for de som kan programmere og ikke-programmere. Språket er veldig annerledes andres språk, så en begrenset “teknisk balast” kan tilogmed være en fordel.</p>
+          <p class="talk-meta">Lyntale (20 min),  <a href="#p_max"> Lørdag 15. oktober 12:00-13:00, track: Other Languages</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/ab.png" class="bio-pic">
+              <div class="bio"><a href="mailto:ab@knowit.no">Andreas Bade</a>
+                <div class="bio-text">Andreas har jobbet så lenge i Knowit at han har e-postadresse på to bokstaver. Han har programmert profesjonelt over i ti år, i hovedsak i Java, men også i .net. Han jobber nå som prosjektleder og teamleder, men er fortsatt glad i fikle med ting som er morsomme å fikle med.</div>
               </div>
             </div>
           </div>
