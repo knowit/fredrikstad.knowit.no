@@ -207,7 +207,7 @@
           "speakers": [
             {
               "name": "Håkon Gulbrandsen & Joakim Lehn",
-              "bio": "Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?<br/>Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!<br/>Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!",
+              "bio": "Håkon og Joakim er backend utviklere som holder til på Oslo Kommune PFF prosjektet. De har særdeles lite app-utviklings erfaring å skryte av, og kan heller ikke noen ting om frontend, JavaScript eller noe annet som brukes i Fuse. Begge to har utdannelsen sin fra NTNU, og har ca et års fartstid som (betalte) utviklere.",
               "pic": "hakon.gulbrandsen.png",
               "email": "hakon.gulbrandsen@knowit.no,joakim.lehn@knowit.no"
             },
@@ -221,6 +221,20 @@
           "title": "Fuse - Real deal?",
           "type": "Lyntale (10 min)",
           "description": "Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?<br/>Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!<br/>Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!"
+        },
+        "c4": {
+          "pending": false,
+          "speakers": [
+            {
+              "name": "Rune Myrdal",
+              "bio": "Rune har jobbet i 18 år som systemutvikler, de siste 13 årene i Knowit Objectnet. Han jobber like gjerne som utvikler som teknisk eller funksjonell arkitekt. De siste årene har Rune jobbet hos SVV, Politiet, Telenor, TAD (ELSÆR), Skatteetaten, Oslo kommune (PET) og er nå tilbake hos Skatteetaten og skal være med å modernisere Folkeregisteret.",
+              "pic": "rmy.jpg",
+              "email": "rmy@knowit.no"
+            }
+          ],
+          "title": "Lei av rotete arkitekturtegninger? Ta en titt på C4 modellen.",
+          "type": "Lyntale (10 min)",
+          "description": "På Knowit sin arkitektskole 2015/2016 presenterte Simon Brown C4 modellen. Flere enn de som gikk på og skal gå på Knowit sin arkitektskole kan ha nytte av å kjenne til C4 modellen og hvordan beskrive software arkitektur på en oversiktlig måte. Foredraget vil ta for seg C4 modellen som ble presentert på Knowit sin arkitektskole beskrevet i bøkene til Simon Brown: \"Software Architecture for Developers\" og \"The Art of Visualising Software Architecture (Communicating software architecture with sketches, diagrams and the C4 model)\"."
         }
 
     }
