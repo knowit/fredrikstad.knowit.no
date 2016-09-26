@@ -235,7 +235,20 @@
           "title": "Lei av rotete arkitekturtegninger? Ta en titt på C4 modellen.",
           "type": "Lyntale (10 min)",
           "description": "På Knowit sin arkitektskole 2015/2016 presenterte Simon Brown C4 modellen. Flere enn de som gikk på og skal gå på Knowit sin arkitektskole kan ha nytte av å kjenne til C4 modellen og hvordan beskrive software arkitektur på en oversiktlig måte. Foredraget vil ta for seg C4 modellen som ble presentert på Knowit sin arkitektskole beskrevet i bøkene til Simon Brown: \"Software Architecture for Developers\" og \"The Art of Visualising Software Architecture (Communicating software architecture with sketches, diagrams and the C4 model)\"."
+        },
+        "presentasjonsteknikk": {
+          "pending": false,
+          "speakers": [
+            {
+              "name": "Michael Johansen",
+              "bio": "IT-konsulent på dagen, startup founder om natten. På NTNU studerte Michael entreprenørskap, informatikk og psykologi. Under studiene tok han et år fri for å sitte i NTNUs styre. I startup-verden har han fått førstehåndserfaring med startup-scenen i både Boston og Silicon Valley. Mennesker og maskiner er de to tingene som interesserer ham mest. Forøvrig er han temmelig systematisk. Michael bryr seg mer enn de fleste om presentasjonsteknikk, og det er et tema han gjerne vil dele sine tanker om på fagseminaret i Fredrikstad.",
+              "pic": "Michael.png",
+              "email": "michael.johansen@knowit.no"
+            }
+          ],
+          "title": "Presentasjonsteknikk",
+          "type": "Foredrag (60 min)",
+          "description": "Nesten alle PowerPoint-presentasjoner er elendige. Tilskuere klager stille på kvaliteten, men gir sjelden reell feedback til foredragsholdere. Og foredragsholderne selv får minimalt med opplæring om hverken menneskelige eller tekniske aspekter ved å holde en presentasjon. For å strø salt i såret er det ingen av de som holder foredrag om presentasjonsteknikk som er gode på det tekniske, så de prater kun om det menneskelige. I dette foredraget dekker vi alt. Vi tar vi en praktisk tilnærming, der alt du lærer her kan brukes direkte i ditt foredrag. Ta med laptopen og åpne notepad."
         }
-
     }
 }
