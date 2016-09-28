@@ -249,6 +249,76 @@
           "title": "Presentasjonsteknikk",
           "type": "Foredrag (60 min)",
           "description": "Nesten alle PowerPoint-presentasjoner er elendige. Tilskuere klager stille på kvaliteten, men gir sjelden reell feedback til foredragsholdere. Og foredragsholderne selv får minimalt med opplæring om hverken menneskelige eller tekniske aspekter ved å holde en presentasjon. For å strø salt i såret er det ingen av de som holder foredrag om presentasjonsteknikk som er gode på det tekniske, så de prater kun om det menneskelige. I dette foredraget dekker vi alt. Vi tar vi en praktisk tilnærming, der alt du lærer her kan brukes direkte i ditt foredrag. Ta med laptopen og åpne notepad."
-        }
+        },
+      "sky_ting": {
+        "pending": false,
+        "speakers": [
+          {
+            "name": "Rune Storløpa",
+            "bio": "Tåkefyrste, som har funnet sitt hjem i skyen de siste årene…",
+            "pic": "rst.jpg",
+            "email": "rst@knowit.no"
+          }
+        ],
+        "title": "The cloud - what have you done for us lately…",
+        "type": "Lyntale (20 min)",
+        "description": "Ting og tang vi har plukket opp underveis og erfaringer vi har gjort oss etter å ha levd i Amazon-skyen et års tid."
+      },
+      "elm": {
+        "pending": false,
+        "speakers": [
+          {
+            "name": "Runar Furenes",
+            "bio": "Runar hadde sommerjobb i Knowit i 2011. Etter endt utdannelse jobbet han et halvt år i statlig sektor, før han begynte i fast stilling hos Knowit desember 2013. Han har erfaring med ulike programmeringsspråk og teknologier, og er spesielt opptatt av funksjonell programmering. Fra 2013 til dags dato er Runar med i Oslo Kommunes utviklingsprosjekt.",
+            "pic": "ruf.jpg",
+            "email": "ruf@knowit.no"
+          }
+        ],
+        "title": "Typesikker front-end med Elm",
+        "type": "Lyntale (20 min)",
+        "description": "Har du noensinne gjort endringer i JavaScript og vært trygg på at du ikke brekker noe? Ikke jeg heller. Elm er et funksjonelt språk som kompilerer til JavaScript. Elm-kode er rask, typesikker, enkel å endre og meget testbar. Elm-kompilatoren gir forståelige feilmeldinger og utelukker kjøretidsfeil. Dette foredraget introduserer Elm og demonstrerer hvordan man kan lage en enkel webapp uten å tenke på JavaScript en eneste gang."
+      },
+      "beyond_compare": {
+        "pending": false,
+        "speakers": [
+          {
+            "name": "Henrik Dæhli",
+            "bio": "Henrik er senior Javautvikler med erfaring fra utvikling i både store forretningskritiske systemer med svært høye krav til oppetid og kodekvalitet, til små applikasjoner på mobil plattform. Han er sertifisert ScrumMaster, liker å jobbe smidig med fokus på høy kvalitet. I prosjekt trives han å samarbeide tett med forretningssiden for å finne de beste løsningene. I sine siste prosjekter har han fått erfaring med kontinuerlinge leveranser, skyløsninger og hvordan man forbedrer store legacy-systemer samtidig som man også leverer ny funksjonalitet.",
+            "pic": "hed.jpg",
+            "email": "hed@knowit.no"
+          }
+        ],
+        "title": "Beyond Compare - diff it all",
+        "type": "Lyntale (10 min)",
+        "description": "Kunne du tenkte deg å alltid klare \"Finn 5 feil\" i Donald, enkelt lage diff-rapporter eller automatisk synkronisere kataloger og filer fra et grafisk brukergrensesnitt (dvs uten å lære deg Rsync). Er du ikke helt komfortabel med \"git diff\", men liker å bruke git fra kommandolinja? Beyond Compare er en viktig del av min Git commit workflow og i denne lyntalen vil jeg vise noen smakebiter hva det kan brukes til."
+      },
+      "postman": {
+        "pending": false,
+        "speakers": [
+          {
+            "name": "Stian Lågstad",
+            "bio": "Stian ble uteksaminert fra Universitetet i Oslo i juni 2016 med mastergrad i bioinformatikk. Gjennom studiene har han fått erfaring med Python, R, Java, LISP, og gjennom deltidsjobben som konsulent for Realfagsbiblioteket jobbet han mye med Javascript. Hos Knowit Objectnet gikk han inn i LISA-prosjektet hos NSB, der han jobber med Java og rammeverk som Spring og Feign.",
+            "pic": "stian.lagstad.jpg",
+            "email": "stian.lagstad@knowit.no"
+          }
+        ],
+        "title": "LISA-prosjektet tok i bruk Postman and you won't believe what happened next!",
+        "type": "Lyntale (15 min)",
+        "description": "Postman hjelper deg å utvikle API'er raskere. Jeg skal vise hvordan du kan bruke Postman i ditt prosjekt, med erfaringer fra LISA-prosjektet. Du vil lære noe om hvordan du kan kjøre requests, teste endepunkter, dokumentere APIer, og hvordan Postman gjør det enkelt å samarbeide om APIer."
+      },
+      "kotlin": {
+        "pending": false,
+        "speakers": [
+          {
+            "name": "Kennet Vuong",
+            "bio": "Kennet er en ivrig utvikler som stadig er på jakt etter nye utfordringer og teknologier. Han ser på seg selv som en full-stack utvikler som trives godt på front-end siden med web og mobil utvikling, men også på back-end med database og server applikasjoner. Gjennom tidligere erfaringer har Kennet utviklet mobil applikasjoner ved bruk av webteknologier som JavaScript, HTML5 og CSS. Kennet har erfaring med rollen som DevOps-utvikler og har jobbet mye med objektorientert systemutvikling på JVM'en og har stor interesse for forskjellige JVM språk som Kotlin og Clojure. Som person er Kennet positiv, ansvarsfull og ambisiøs, han ønsker alltid å utvikle seg faglig og liker godt å prøve nye og krevende utfordringer som kan bidra til at Kennet blir en bedre utvikler og konsulent.",
+            "pic": "kennet.vuong.jpg",
+            "email": "kennet.vuong@knowit.no"
+          }
+        ],
+        "title": "Kotlin – Et språk for alt!",
+        "type": "Lyntale (15 min)",
+        "description": "Du har mest sannsynlig hørt JVM språk som Scala, Clojure, Java, Ceylon eller kanskje Jython eller Jruby?<br/>Hold deg fast, Kotlin er enda et nytt språk som kjøres på JVM’en. Kotlin er utviklet av Jetbrains og har endelig kommet ute av betafasen.<br/>Kotlin er et enkelt og statisk typet programmeringspråk som er fri for null pointer exceptions og 100% kompatibel med Java, og det kan brukes til mobil- og nettleser utvikling.<br/>Målet med denne lyntalen er å gi deg noen nye ideer om hvordan du kan ta i bruk Kotlin i ditt neste prosjekt."
+      }
     }
 }

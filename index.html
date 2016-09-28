@@ -42,7 +42,11 @@
             <div class="schedule-entry">
               <h5><b>Cloud</b></h5>
               <div class="schedule-slot">knowit_cloud</div>
-              <div class="schedule-slot">sky_ting</div>
+              <div data-talk-id="sky_ting" class="schedule-slot">
+                <p><a id="p_sky_ting" href="#sky_ting">The cloud - what have you done for us lately…</a></p>
+                <address>Rune Storløpa
+                </address>
+              </div>
               <div class="schedule-slot">dibk_sky</div>
             </div>
             <div class="schedule-entry">
@@ -78,14 +82,26 @@
             <div class="schedule-entry">
               <h5><b>Tools</b></h5>
               <div class="schedule-slot">jenkins_2</div>
-              <div class="schedule-slot">beyond_compare</div>
+              <div data-talk-id="beyond_compare" class="schedule-slot">
+                <p><a id="p_beyond_compare" href="#beyond_compare">Beyond Compare - diff it all</a></p>
+                <address>Henrik Dæhli
+                </address>
+              </div>
               <div class="schedule-slot">git</div>
-              <div class="schedule-slot">postman</div>
+              <div data-talk-id="postman" class="schedule-slot">
+                <p><a id="p_postman" href="#postman">LISA-prosjektet tok i bruk Postman and you won't believe what happened next!</a></p>
+                <address>Stian Lågstad
+                </address>
+              </div>
             </div>
             <div class="schedule-entry">
               <h5><b>Frontend</b></h5>
               <div class="schedule-slot">storybook</div>
-              <div class="schedule-slot">elm</div>
+              <div data-talk-id="elm" class="schedule-slot">
+                <p><a id="p_elm" href="#elm">Typesikker front-end med Elm</a></p>
+                <address>Runar Furenes
+                </address>
+              </div>
               <div data-talk-id="hololens" class="schedule-slot">
                 <p><a id="p_hololens" href="#hololens">Hvordan programmere Microsoft HoloLens</a></p>
                 <address>Christian Egeberg
@@ -162,7 +178,11 @@
             <div class="schedule-entry">
               <h5><b>Other Languages</b></h5>
               <div class="schedule-slot">sql</div>
-              <div class="schedule-slot">kotlin</div>
+              <div data-talk-id="kotlin" class="schedule-slot">
+                <p><a id="p_kotlin" href="#kotlin">Kotlin – Et språk for alt!</a></p>
+                <address>Kennet Vuong
+                </address>
+              </div>
               <div data-talk-id="max" class="schedule-slot">
                 <p><a id="p_max" href="#max">Hippieprogrammering i Max</a></p>
                 <address>Andreas Bade
@@ -185,6 +205,18 @@
     <section id="talks" class="talks">
       <div class="content">
         <h1>Foredrag</h1>
+        <div id="sky_ting" data-talk-id="sky_ting" class="talks-entry">
+          <h4> The cloud - what have you done for us lately…</h4>
+          <p class="talk-description">Ting og tang vi har plukket opp underveis og erfaringer vi har gjort oss etter å ha levd i Amazon-skyen et års tid.</p>
+          <p class="talk-meta">Lyntale (20 min),  <a href="#p_sky_ting"> Fredag 14. oktober 14:00-15:00, track: Cloud</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/rst.jpg" class="bio-pic">
+              <div class="bio"><a href="mailto:rst@knowit.no">Rune Storløpa</a>
+                <div class="bio-text">Tåkefyrste, som har funnet sitt hjem i skyen de siste årene…</div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="fuse" data-talk-id="fuse" class="talks-entry">
           <h4> Fuse - Real deal?</h4>
           <p class="talk-description">Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?<br/>Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!<br/>Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!</p>
@@ -210,6 +242,42 @@
             <div class="speaker"><img src="pics/ob.jpg" class="bio-pic">
               <div class="bio"><a href="mailto:olebak@knowit.no">Ole Bakstad</a>
                 <div class="bio-text">Ole er en faglig engasjert utvikler som interesserer seg for alt fra programmering til utviklingsprosesser og organisasjonskultur. Spesielt interessert i hvordan tekniske valg påvirker måten man jobber på, jobbhverdagen til de ansatte og evnen til å skape verdi over tid. Aktiv medlem av JavaBin og JavaZone sin programkomité.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="beyond_compare" data-talk-id="beyond_compare" class="talks-entry">
+          <h4> Beyond Compare - diff it all</h4>
+          <p class="talk-description">Kunne du tenkte deg å alltid klare "Finn 5 feil" i Donald, enkelt lage diff-rapporter eller automatisk synkronisere kataloger og filer fra et grafisk brukergrensesnitt (dvs uten å lære deg Rsync). Er du ikke helt komfortabel med "git diff", men liker å bruke git fra kommandolinja? Beyond Compare er en viktig del av min Git commit workflow og i denne lyntalen vil jeg vise noen smakebiter hva det kan brukes til.</p>
+          <p class="talk-meta">Lyntale (10 min),  <a href="#p_beyond_compare"> Fredag 14. oktober 15:15-16:15, track: Tools</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/hed.jpg" class="bio-pic">
+              <div class="bio"><a href="mailto:hed@knowit.no">Henrik Dæhli</a>
+                <div class="bio-text">Henrik er senior Javautvikler med erfaring fra utvikling i både store forretningskritiske systemer med svært høye krav til oppetid og kodekvalitet, til små applikasjoner på mobil plattform. Han er sertifisert ScrumMaster, liker å jobbe smidig med fokus på høy kvalitet. I prosjekt trives han å samarbeide tett med forretningssiden for å finne de beste løsningene. I sine siste prosjekter har han fått erfaring med kontinuerlinge leveranser, skyløsninger og hvordan man forbedrer store legacy-systemer samtidig som man også leverer ny funksjonalitet.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="postman" data-talk-id="postman" class="talks-entry">
+          <h4> LISA-prosjektet tok i bruk Postman and you won't believe what happened next!</h4>
+          <p class="talk-description">Postman hjelper deg å utvikle API'er raskere. Jeg skal vise hvordan du kan bruke Postman i ditt prosjekt, med erfaringer fra LISA-prosjektet. Du vil lære noe om hvordan du kan kjøre requests, teste endepunkter, dokumentere APIer, og hvordan Postman gjør det enkelt å samarbeide om APIer.</p>
+          <p class="talk-meta">Lyntale (15 min),  <a href="#p_postman"> Fredag 14. oktober 15:15-16:15, track: Tools</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/stian.lagstad.jpg" class="bio-pic">
+              <div class="bio"><a href="mailto:stian.lagstad@knowit.no">Stian Lågstad</a>
+                <div class="bio-text">Stian ble uteksaminert fra Universitetet i Oslo i juni 2016 med mastergrad i bioinformatikk. Gjennom studiene har han fått erfaring med Python, R, Java, LISP, og gjennom deltidsjobben som konsulent for Realfagsbiblioteket jobbet han mye med Javascript. Hos Knowit Objectnet gikk han inn i LISA-prosjektet hos NSB, der han jobber med Java og rammeverk som Spring og Feign.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="elm" data-talk-id="elm" class="talks-entry">
+          <h4> Typesikker front-end med Elm</h4>
+          <p class="talk-description">Har du noensinne gjort endringer i JavaScript og vært trygg på at du ikke brekker noe? Ikke jeg heller. Elm er et funksjonelt språk som kompilerer til JavaScript. Elm-kode er rask, typesikker, enkel å endre og meget testbar. Elm-kompilatoren gir forståelige feilmeldinger og utelukker kjøretidsfeil. Dette foredraget introduserer Elm og demonstrerer hvordan man kan lage en enkel webapp uten å tenke på JavaScript en eneste gang.</p>
+          <p class="talk-meta">Lyntale (20 min),  <a href="#p_elm"> Fredag 14. oktober 15:15-16:15, track: Frontend</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/ruf.jpg" class="bio-pic">
+              <div class="bio"><a href="mailto:ruf@knowit.no">Runar Furenes</a>
+                <div class="bio-text">Runar hadde sommerjobb i Knowit i 2011. Etter endt utdannelse jobbet han et halvt år i statlig sektor, før han begynte i fast stilling hos Knowit desember 2013. Han har erfaring med ulike programmeringsspråk og teknologier, og er spesielt opptatt av funksjonell programmering. Fra 2013 til dags dato er Runar med i Oslo Kommunes utviklingsprosjekt.</div>
               </div>
             </div>
           </div>
@@ -263,6 +331,18 @@
             <div class="speaker"><img src="pics/rmy.jpg" class="bio-pic">
               <div class="bio"><a href="mailto:rmy@knowit.no">Rune Myrdal</a>
                 <div class="bio-text">Rune har jobbet i 18 år som systemutvikler, de siste 13 årene i Knowit Objectnet. Han jobber like gjerne som utvikler som teknisk eller funksjonell arkitekt. De siste årene har Rune jobbet hos SVV, Politiet, Telenor, TAD (ELSÆR), Skatteetaten, Oslo kommune (PET) og er nå tilbake hos Skatteetaten og skal være med å modernisere Folkeregisteret.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="kotlin" data-talk-id="kotlin" class="talks-entry">
+          <h4> Kotlin – Et språk for alt!</h4>
+          <p class="talk-description">Du har mest sannsynlig hørt JVM språk som Scala, Clojure, Java, Ceylon eller kanskje Jython eller Jruby?<br/>Hold deg fast, Kotlin er enda et nytt språk som kjøres på JVM’en. Kotlin er utviklet av Jetbrains og har endelig kommet ute av betafasen.<br/>Kotlin er et enkelt og statisk typet programmeringspråk som er fri for null pointer exceptions og 100% kompatibel med Java, og det kan brukes til mobil- og nettleser utvikling.<br/>Målet med denne lyntalen er å gi deg noen nye ideer om hvordan du kan ta i bruk Kotlin i ditt neste prosjekt.</p>
+          <p class="talk-meta">Lyntale (15 min),  <a href="#p_kotlin"> Lørdag 15. oktober 12:00-13:00, track: Other Languages</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/kennet.vuong.jpg" class="bio-pic">
+              <div class="bio"><a href="mailto:kennet.vuong@knowit.no">Kennet Vuong</a>
+                <div class="bio-text">Kennet er en ivrig utvikler som stadig er på jakt etter nye utfordringer og teknologier. Han ser på seg selv som en full-stack utvikler som trives godt på front-end siden med web og mobil utvikling, men også på back-end med database og server applikasjoner. Gjennom tidligere erfaringer har Kennet utviklet mobil applikasjoner ved bruk av webteknologier som JavaScript, HTML5 og CSS. Kennet har erfaring med rollen som DevOps-utvikler og har jobbet mye med objektorientert systemutvikling på JVM'en og har stor interesse for forskjellige JVM språk som Kotlin og Clojure. Som person er Kennet positiv, ansvarsfull og ambisiøs, han ønsker alltid å utvikle seg faglig og liker godt å prøve nye og krevende utfordringer som kan bidra til at Kennet blir en bedre utvikler og konsulent.</div>
               </div>
             </div>
           </div>
