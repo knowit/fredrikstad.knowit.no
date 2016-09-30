@@ -37,7 +37,11 @@
               <h5><b>Scala</b></h5>
               <div class="schedule-slot">scala_kjoter</div>
               <div class="schedule-slot">feil_scala</div>
-              <div class="schedule-slot">scala_script</div>
+              <div data-talk-id="scala_script" class="schedule-slot">
+                <p><a id="p_scala_script" href="#scala_script">Scala kan brukes som skriptespråk</a></p>
+                <address>Are Husby
+                </address>
+              </div>
             </div>
             <div class="schedule-entry">
               <h5><b>Cloud</b></h5>
@@ -70,13 +74,21 @@
             <h4>15:15-16:15 Fag</h4>
             <div class="schedule-entry">
               <h5><b>Code &amp; Frameworks</b></h5>
-              <div class="schedule-slot">clean_code</div>
+              <div data-talk-id="clean_code" class="schedule-slot">
+                <p><a id="p_clean_code" href="#clean_code">Effects of Clean Code on Understandability</a></p>
+                <address>Henning Koller
+                </address>
+              </div>
               <div data-talk-id="final_const" class="schedule-slot">
                 <p><a id="p_final_const" href="#final_const">Final? Gi meg const!</a></p>
                 <address>Ole Bakstad
                 </address>
               </div>
-              <div class="schedule-slot">spring_boot</div>
+              <div data-talk-id="spring_boot" class="schedule-slot">
+                <p><a id="p_spring_boot" href="#spring_boot">Enkel overvåking av Spring Boot applikasjoner.</a></p>
+                <address>Gunnar Velle
+                </address>
+              </div>
               <div class="schedule-slot">sjakkmotor</div>
             </div>
             <div class="schedule-entry">
@@ -115,23 +127,15 @@
           </div>
           <h4 class="schedule-all-tracks">16:15-16:30 Pause</h4>
           <div class="schedule-slot"></div>
-          <div class="schedule-collection with-4-entries">
-            <h4>16:30-18:00 Open Space (inkl. mat + øl)</h4>
+          <div class="schedule-collection with-1-entries">
+            <h4>16:30-18:00 Intro til Open Space og lage program</h4>
             <div class="schedule-entry">
-              <h5><b>Rom 1</b></h5>
-              <div class="schedule-slot">openspace</div>
-            </div>
-            <div class="schedule-entry">
-              <h5><b>Rom 2</b></h5>
-              <div class="schedule-slot">openspace</div>
-            </div>
-            <div class="schedule-entry">
-              <h5><b>Rom 3</b></h5>
-              <div class="schedule-slot">openspace</div>
-            </div>
-            <div class="schedule-entry">
-              <h5><b>Rom 4</b></h5>
-              <div class="schedule-slot">openspace</div>
+              <h5><b>Alle rom</b></h5>
+              <div data-talk-id="openspace" class="schedule-slot">
+                <p><a id="p_openspace" href="#openspace">Open Space</a></p>
+                <address>
+                </address>
+              </div>
             </div>
           </div>
           <h4 class="schedule-all-tracks">18:00-20:00 Fritid før middag</h4>
@@ -205,6 +209,18 @@
     <section id="talks" class="talks">
       <div class="content">
         <h1>Foredrag</h1>
+        <div id="scala_script" data-talk-id="scala_script" class="talks-entry">
+          <h4> Scala kan brukes som skriptespråk</h4>
+          <p class="talk-description">Scala er i likhet med Java et "general purpose"-språk, som er mest kjent som et backend-språk. Men Scala har flere bruksområder, f.eks. frontend-utvikling med Scala.js, maskinvarenær utvikling  med Scala Native, samt at Scala egner seg som implementasjonspråk for DSL-er (domain  specific languages).  I denne lyntalen vil jeg gjør folk oppmerksommme på at Scala også kan brukes til skripting, istedenfor Linux bash/shell, Perl eller Python. Som eksempler vil jeg vise to små skript som jeg har lagd selv med liten innsats, som jeg bruker i min utviklerhverdag sammen med Git og Maven.</p>
+          <p class="talk-meta">Lyntale (10 min),  <a href="#p_scala_script"> Fredag 14. oktober 14:00-15:00, track: Scala</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/are.jpg" class="bio-pic">
+              <div class="bio"><a href="mailto:are.husby@knowit.no">Are Husby</a>
+                <div class="bio-text">Systemutvikler/programmerer med Scala, Java, backend og objektorientering som kjernekompetanse. Begynte i Knowit i april 2015. Har åtte års erfaring som utvikler i Skattedirektoratet, hvor jeg de fire siste årene jobbet med med Java-programmering i flere prosjekter. Erfaringen med en stor organisasjon med IT-systemer med lang levetid har gitt meg interesse for blant annet kodekvalitet, smidig utviklingsmetodikk, testing og funksjonell programmering. Noen utviklere kommer til programmeringsfaget med en matematisk tankegang, mens andre er pragmatiske hackere. Jeg sammenligner god programkode med tekst i naturlige språk, og mener at billig og trygg forvaltning av programkode henger sammen med graden av lesbarhet for mennesker.</div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="sky_ting" data-talk-id="sky_ting" class="talks-entry">
           <h4> The cloud - what have you done for us lately…</h4>
           <p class="talk-description">Ting og tang vi har plukket opp underveis og erfaringer vi har gjort oss etter å ha levd i Amazon-skyen et års tid.</p>
@@ -234,6 +250,16 @@
             </div>
           </div>
         </div>
+        <div id="clean_code" data-talk-id="clean_code" class="talks-entry">
+          <h4> Effects of Clean Code on Understandability</h4>
+          <p class="talk-description">Lesbar og forståelig kode er viktig. Endringer som i utgangspunktet skal være lette og gjennomføre kan fort bli gjort komplekse og tidkrevende av dårlig kode. I boken Clean Code presenterer Robert C. Martin sin løsning på hvordan man kan oppnå forståelig og lesbar kode. Boken er populær og anerkjent, og "clean code" har blitt et synonym for pen og bra kode.<br/><br/>Men skriver du virkelig mer forståelig kode hvis du følger reglene og prinsippene til Robert Martin?</p>
+          <p class="talk-meta">Lyntale (15 min),  <a href="#p_clean_code"> Fredag 14. oktober 15:15-16:15, track: Code &amp; Frameworks</a></p>
+          <div class="speakers">
+            <div class="speaker"><a href="mailto:henkol@knowit.no">Henning Koller</a>
+              <div class="bio-text">Henning er en dyktig og samvittighetsfull konsulent som har vært ansatt i Knowit Objectnet siden 2014. Henning hadde sommerjobb i Knowit sommeren 2014 og har jobbet deltid ved siden av studier fram til han startet på fulltid høsten 2016. Henning har sin kjernekompetanse innefor scala og java, men har i tillegg god kompetanse på frontendteknologier som wicket, javascript og backbone og noe react.js. Henning er utdannet ved Universitetet i Oslo. I Mai 2016 leverte han sin masteroppgave, hvor han forsket på effekten av Clean Code på kodes forståelighet. I løpet av studietiden har Henning sittet i fadderstyret, samt vært med på å starte studentforeningen ProgNett. Henning jobber både frontend og backend, men trives best med backend. Han er interessert i ny teknologi og streber etter å lære nye og spennende ting.</div>
+            </div>
+          </div>
+        </div>
         <div id="final_const" data-talk-id="final_const" class="talks-entry">
           <h4> Final? Gi meg const!</h4>
           <p class="talk-description">Som tidligere C++-utvikler var jeg fornøyd da jeg så at Java hadde et final-keyword. Gleden var dog kortvarig da jeg fant ut hvor liten effekt final faktisk har når man jobber i en stor og gammel kodebase. C og C++ er kanskje kjent for segfaults, minnelekasjer og udefinert oppførsel, men noe har de gjort rett. I denne talken introduserer jeg C++ sitt keyword const, hvilket problem dette løser og hvorfor Java burde ha noe tilsvarende.</p>
@@ -242,6 +268,18 @@
             <div class="speaker"><img src="pics/ob.jpg" class="bio-pic">
               <div class="bio"><a href="mailto:olebak@knowit.no">Ole Bakstad</a>
                 <div class="bio-text">Ole er en faglig engasjert utvikler som interesserer seg for alt fra programmering til utviklingsprosesser og organisasjonskultur. Spesielt interessert i hvordan tekniske valg påvirker måten man jobber på, jobbhverdagen til de ansatte og evnen til å skape verdi over tid. Aktiv medlem av JavaBin og JavaZone sin programkomité.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="spring_boot" data-talk-id="spring_boot" class="talks-entry">
+          <h4> Enkel overvåking av Spring Boot applikasjoner.</h4>
+          <p class="talk-description">Spring Boot er en enkel måte å lage javaapplikasjoner som kan kjøres som frittstående tjenester. Rammeverket inkluderer funksjonalitet for administrasjon og overvåking av metrikker, men dersom du har mange applikasjoner trenger du en plass å samle alt dette. Løsningen er en egen adminapplikasjon med Spring Boot Admin og Javamelody.<br/>Presentasjonen er basert på erfaringer gjort i DSB og som tas videre i Statsbygg.</p>
+          <p class="talk-meta">Lyntale (20 min),  <a href="#p_spring_boot"> Fredag 14. oktober 15:15-16:15, track: Code &amp; Frameworks</a></p>
+          <div class="speakers">
+            <div class="speaker"><img src="pics/gv_knowit.no.jpg" class="bio-pic">
+              <div class="bio"><a href="mailto:gv@knowit.no">Gunnar Velle</a>
+                <div class="bio-text">Gunnar er ein allsidig konsulent som har vore involvert i fleire spennande og samfunnsnyttige prosjekt innafor offentleg forvaltning, men også innan industri, media og telekom. Gunnar er alltid oppdatert på kva som finnes av nye teknologiar, verktøy og rammeverk innen Java og fri programvare, og har stor glede av å utnytte dette i prosjekt der teknologien passar inn. Gunnar har jobba med brukergrensesnitt i nettbaserte løsninger i ei årrekke. Han er spesielt interessert i grensesnittet mellom teknologi og menneske, og er opptatt av brukeropplevelsen i prosjekta han er involvert i. En av Gunnars sterkeste sider er at han har en god forståelse av teknologi og klarer raskt å sette seg inn i nye problemstillinger. Gunnar har vore med i driftsgruppa i Knowit Objectnet siden 2004, med ansvar for maskinvare, infrastruktur og brukerhjelp for ansatte.</div>
               </div>
             </div>
           </div>
@@ -293,6 +331,11 @@
               </div>
             </div>
           </div>
+        </div>
+        <div id="openspace" data-talk-id="openspace" class="talks-entry">
+          <h4> Open Space</h4>
+          <p class="talk-description">En selvorganiserende konferanseform. Vi lager agenda sammen. Detaljer, les her <a href="https://en.wikipedia.org/wiki/Open_Space_Technology">https://en.wikipedia.org/wiki/Open_Space_Technology</a></p>
+          <p class="talk-meta">Open Space,  <a href="#p_openspace"> Fredag 14. oktober 16:30-18:00, track: Alle rom</a></p>
         </div>
         <div id="fagstrategi" data-talk-id="fagstrategi" class="talks-entry">
           <h4> Fagstrategi</h4>

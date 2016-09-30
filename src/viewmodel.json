@@ -1,324 +1,408 @@
 {
-    "title": "Knowit Objectnet Fagseminar våren 2016",
-    "event": {
-        "date": "14.-15. oktober 2016",
-        "longDate": "14. - 15. oktober 2016",
-        "venue": "Quality Hotel Fredrikstad",
-        "city": "Fredrikstad",
-        "country": "Norge",
-        "gmapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091299.1382406687!2d8.698165322408654!3d59.21126238152752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46440327712c850d%3A0x242977c411e3527a!2sQuality+Hotel+Fredrikstad!5e0!3m2!1sno!2sno!4v1471247393134"
-    },
-    "schedules": [
-      {
-        "day": "Fredag 14. oktober",
-        "collections": [
-          {
-              "time": "14:00-15:00 Fag",
-              "entries": [
-                {
-                    "room": "Scala",
-                    "slots": ["scala_kjoter", "feil_scala", "scala_script"]
-                },
-                {
-                    "room": "Cloud",
-                    "slots": ["knowit_cloud", "sky_ting", "dibk_sky"]
-                },
-                {
-                    "room": "UX & Dev Coop",
-                    "slots": ["ux_utvikler", "fuse", "designer_vs_utvikler"]
-                },
-                {
-                    "room": "Kanban",
-                    "slots": ["kanban_workshop"]
-                }
-              ]
-          },
-          {
-              "time": "15:00-15:15 Pause",
-              "isBreak": true
-          },
-          {
-              "time": "15:15-16:15 Fag",
-              "entries": [
-                {
-                    "room": "Code & Frameworks",
-                    "slots": ["clean_code", "final_const", "spring_boot", "sjakkmotor"]
-                },
-                {
-                    "room": "Tools",
-                    "slots": ["jenkins_2", "beyond_compare", "git", "postman"]
-                },
-                {
-                    "room": "Frontend",
-                    "slots": ["storybook", "elm", "hololens"]
-                },
-                {
-                    "room": "Kanban",
-                    "slots": ["kanban_workshop"]
-                }
-              ]
-          },
-          {
-              "time": "16:15-16:30 Pause",
-              "isBreak": true
-          },
-          {
-              "time": "16:30-18:00 Open Space (inkl. mat + øl)",
-              "entries": [
-                {
-                    "room": "Rom 1",
-                    "slots": ["openspace"]
-                },
-                {
-                    "room": "Rom 2",
-                    "slots": ["openspace"]
-                },
-                {
-                    "room": "Rom 3",
-                    "slots": ["openspace"]
-                },
-                {
-                    "room": "Rom 4",
-                    "slots": ["openspace"]
-                }
-              ]
-          },
-          {
-              "time": "18:00-20:00 Fritid før middag",
-              "isBreak": true
-          }
-        ]
-      },
-      {
-        "day": "Lørdag 15. oktober",
-        "collections": [
-          {
-              "time": "10:00-10:30 God morgen & fagstrategi",
-              "entries": [
-                {
-                    "room": "Felles",
-                    "slots": ["fagstrategi"]
-                }
-              ]
-          },
-          {
-              "time": "10:30-10:45 Pause",
-              "isBreak": true
-          },
-          {
-              "time": "10:45-11:45 Foredrag",
-              "entries": [
-                {
-                    "room": "Felles",
-                    "slots": ["presentasjonsteknikk"]
-                }
-              ]
-          },
-          {
-              "time": "12:00-13:00 Fag",
-              "entries": [
-                {
-                    "room": "Arkitektur & metode",
-                    "slots": ["arne", "event_source", "c4"]
-                },
-                {
-                    "room": "Other Languages",
-                    "slots": ["sql", "kotlin", "max"]
-                },
-                {
-                    "room": "Soft skills",
-                    "slots": ["prosjekt_faggruppe", "mlaas", "øltapping", "ruter_fagruppe"]
-                }
-              ]
-          },
-          {
-              "time": "14:00 Buss hjem",
-              "isBreak": true
-          }
-        ]
-      }
-    ],
-    "talks": {
-        "fagstrategi": {
-            "pending": false,
-            "speakers": [
-              {
-                "name": "Jan Henrik Gundelsby",
-                "bio": "Jan Henrik er fagsjef i Knowit Objectnet. Han har 20 års erfaring med teknologi på JVMen. Har de siste årene syslet mye med applikasjonsdrift, mikrotjenester og DevOps sentralt i Oslo kommune. En ivrig lettvekts-fantast som forsøker å jobbe mot smidige arkitekturer og løsninger.",
-                "pic": "jhg.jpg",
-                "email": "jhg@knowit.no"
-              },
-                            {
-                "name": "Haakon Spilde",
-                "bio": "Haakon er fagsjef i Knowit Objectnet. Haakon er lidenskapelig opptatt av prosess og metode, med særlig fokus på Agile teknikker. Hvordan lære av sine feil, hvordan endre sine metoder og prosesser til det bedre og hvordan få et team til å fungere optimalt er tema som opptar Haakon.",
-                "pic": "hfs.jpg",
-                "email": "hfs@knowit.no"
-              }
-
-            ],
-            "title": "Fagstrategi",
-            "type": "Foredrag (30 min)",
-            "description": "Hva er Knowit Objectnets fagstrategi? I denne halvtimen presenteres vårt \"Center Of Excellence systemutvikling\", neste års fagplan og hvilke faglige satsningsområder vi har fremover."
-        },
-        "final_const": {
-            "pending": false,
-            "speakers": [
-              {
-                "name": "Ole Bakstad",
-                "bio": "Ole er en faglig engasjert utvikler som interesserer seg for alt fra programmering til utviklingsprosesser og organisasjonskultur. Spesielt interessert i hvordan tekniske valg påvirker måten man jobber på, jobbhverdagen til de ansatte og evnen til å skape verdi over tid. Aktiv medlem av JavaBin og JavaZone sin programkomité.",
-                "pic": "ob.jpg",
-                "email": "olebak@knowit.no"
-              }
-            ],
-            "title": "Final? Gi meg const!",
-            "type": "Lyntale (10 min)",
-            "description": "Som tidligere C++-utvikler var jeg fornøyd da jeg så at Java hadde et final-keyword. Gleden var dog kortvarig da jeg fant ut hvor liten effekt final faktisk har når man jobber i en stor og gammel kodebase. C og C++ er kanskje kjent for segfaults, minnelekasjer og udefinert oppførsel, men noe har de gjort rett. I denne talken introduserer jeg C++ sitt keyword const, hvilket problem dette løser og hvorfor Java burde ha noe tilsvarende."
-        },
-        "hololens": {
-          "pending": false,
-          "speakers": [
+  "title": "Knowit Objectnet Fagseminar våren 2016",
+  "event": {
+    "date": "14.-15. oktober 2016",
+    "longDate": "14. - 15. oktober 2016",
+    "venue": "Quality Hotel Fredrikstad",
+    "city": "Fredrikstad",
+    "country": "Norge",
+    "gmapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091299.1382406687!2d8.698165322408654!3d59.21126238152752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46440327712c850d%3A0x242977c411e3527a!2sQuality+Hotel+Fredrikstad!5e0!3m2!1sno!2sno!4v1471247393134"
+  },
+  "schedules": [
+    {
+      "day": "Fredag 14. oktober",
+      "collections": [
+        {
+          "time": "14:00-15:00 Fag",
+          "entries": [
             {
-              "name": "Christian Egeberg",
-              "bio": "Christian er en .Net utvikler med fokus på skyarkitektur og mobil. Han har dyp interesse for alle slags dingser og teknologi, liker å gjøre ting grundig, og tenker ofte utenfor bokser. Christian kan til tider sette umåtelig pris på bevisst å befinne seg på feil jorde.",
-              "pic": "ceg.jpeg",
-              "email": "ceg@knowit.no"
-            }
-          ],
-          "title": "Hvordan programmere Microsoft HoloLens",
-          "type": "Lyntale (20 min)",
-          "description": "Hvorfor er HoloLens forskjellig fra andre Virtual Reality briller, og hvordan programmerer man for den. API støtte for world coordinates, gestures, gaze, voice, spatial sound og spatial mapping. Ja, jeg tar med en HoloLens."
-        },
-        "max": {
-          "pending": false,
-          "speakers": [
-            {
-              "name": "Andreas Bade",
-              "bio": "Andreas har jobbet så lenge i Knowit at han har e-postadresse på to bokstaver. Han har programmert profesjonelt over i ti år, i hovedsak i Java, men også i .net. Han jobber nå som prosjektleder og teamleder, men er fortsatt glad i fikle med ting som er morsomme å fikle med.",
-              "pic": "ab.png",
-              "email": "ab@knowit.no"
-            }
-          ],
-          "title": "Hippieprogrammering i Max",
-          "type": "Lyntale (20 min)",
-          "description": "Max er et programmeringsspråk som lar deg kombinere media og hardware på kreative måter. Språket ble laget på midten av åttitallet, men er fortsatt poplært. Det er et visuelt programmeringsspråk. Til tross for dette, er språket givende å programmere i og har et godt utviklingsmiljø.<br/><br/>Språket finnes i en open source variant som heter Pure Data.<br/><br/>Dette foredraget vil gi en kort innføring i språket og demoer for å vise mulighetene. Hensikten er å gi en overordnet forståelse av språket og mulige anvendelsesområder.<br/><br/>Foredraget egner seg både for de som kan programmere og ikke-programmere. Språket er veldig annerledes andres språk, så en begrenset “teknisk balast” kan tilogmed være en fordel."
-        },
-        "fuse": {
-          "pending": false,
-          "speakers": [
-            {
-              "name": "Håkon Gulbrandsen & Joakim Lehn",
-              "bio": "Håkon og Joakim er backend utviklere som holder til på Oslo Kommune PFF prosjektet. De har særdeles lite app-utviklings erfaring å skryte av, og kan heller ikke noen ting om frontend, JavaScript eller noe annet som brukes i Fuse. Begge to har utdannelsen sin fra NTNU, og har ca et års fartstid som (betalte) utviklere.",
-              "pic": "hakon.gulbrandsen.png",
-              "email": "hakon.gulbrandsen@knowit.no,joakim.lehn@knowit.no"
+              "room": "Scala",
+              "slots": [
+                "scala_kjoter",
+                "feil_scala",
+                "scala_script"
+              ]
             },
             {
-              "name": "",
-              "bio": "",
-              "pic": "joakim.lehn.jpg",
-              "email": ""
-            }
-          ],
-          "title": "Fuse - Real deal?",
-          "type": "Lyntale (10 min)",
-          "description": "Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?<br/>Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!<br/>Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!"
-        },
-        "c4": {
-          "pending": false,
-          "speakers": [
+              "room": "Cloud",
+              "slots": [
+                "knowit_cloud",
+                "sky_ting",
+                "dibk_sky"
+              ]
+            },
             {
-              "name": "Rune Myrdal",
-              "bio": "Rune har jobbet i 18 år som systemutvikler, de siste 13 årene i Knowit Objectnet. Han jobber like gjerne som utvikler som teknisk eller funksjonell arkitekt. De siste årene har Rune jobbet hos SVV, Politiet, Telenor, TAD (ELSÆR), Skatteetaten, Oslo kommune (PET) og er nå tilbake hos Skatteetaten og skal være med å modernisere Folkeregisteret.",
-              "pic": "rmy.jpg",
-              "email": "rmy@knowit.no"
-            }
-          ],
-          "title": "Lei av rotete arkitekturtegninger? Ta en titt på C4 modellen.",
-          "type": "Lyntale (10 min)",
-          "description": "På Knowit sin arkitektskole 2015/2016 presenterte Simon Brown C4 modellen. Flere enn de som gikk på og skal gå på Knowit sin arkitektskole kan ha nytte av å kjenne til C4 modellen og hvordan beskrive software arkitektur på en oversiktlig måte. Foredraget vil ta for seg C4 modellen som ble presentert på Knowit sin arkitektskole beskrevet i bøkene til Simon Brown: \"Software Architecture for Developers\" og \"The Art of Visualising Software Architecture (Communicating software architecture with sketches, diagrams and the C4 model)\"."
-        },
-        "presentasjonsteknikk": {
-          "pending": false,
-          "speakers": [
+              "room": "UX & Dev Coop",
+              "slots": [
+                "ux_utvikler",
+                "fuse",
+                "designer_vs_utvikler"
+              ]
+            },
             {
-              "name": "Michael Johansen",
-              "bio": "IT-konsulent på dagen, startup founder om natten. På NTNU studerte Michael entreprenørskap, informatikk og psykologi. Under studiene tok han et år fri for å sitte i NTNUs styre. I startup-verden har han fått førstehåndserfaring med startup-scenen i både Boston og Silicon Valley. Mennesker og maskiner er de to tingene som interesserer ham mest. Forøvrig er han temmelig systematisk. Michael bryr seg mer enn de fleste om presentasjonsteknikk, og det er et tema han gjerne vil dele sine tanker om på fagseminaret i Fredrikstad.",
-              "pic": "Michael.png",
-              "email": "michael.johansen@knowit.no"
+              "room": "Kanban",
+              "slots": [
+                "kanban_workshop"
+              ]
             }
-          ],
-          "title": "Presentasjonsteknikk",
-          "type": "Foredrag (60 min)",
-          "description": "Nesten alle PowerPoint-presentasjoner er elendige. Tilskuere klager stille på kvaliteten, men gir sjelden reell feedback til foredragsholdere. Og foredragsholderne selv får minimalt med opplæring om hverken menneskelige eller tekniske aspekter ved å holde en presentasjon. For å strø salt i såret er det ingen av de som holder foredrag om presentasjonsteknikk som er gode på det tekniske, så de prater kun om det menneskelige. I dette foredraget dekker vi alt. Vi tar vi en praktisk tilnærming, der alt du lærer her kan brukes direkte i ditt foredrag. Ta med laptopen og åpne notepad."
+          ]
         },
-      "sky_ting": {
-        "pending": false,
-        "speakers": [
-          {
-            "name": "Rune Storløpa",
-            "bio": "Tåkefyrste, som har funnet sitt hjem i skyen de siste årene…",
-            "pic": "rst.jpg",
-            "email": "rst@knowit.no"
-          }
-        ],
-        "title": "The cloud - what have you done for us lately…",
-        "type": "Lyntale (20 min)",
-        "description": "Ting og tang vi har plukket opp underveis og erfaringer vi har gjort oss etter å ha levd i Amazon-skyen et års tid."
-      },
-      "elm": {
-        "pending": false,
-        "speakers": [
-          {
-            "name": "Runar Furenes",
-            "bio": "Runar hadde sommerjobb i Knowit i 2011. Etter endt utdannelse jobbet han et halvt år i statlig sektor, før han begynte i fast stilling hos Knowit desember 2013. Han har erfaring med ulike programmeringsspråk og teknologier, og er spesielt opptatt av funksjonell programmering. Fra 2013 til dags dato er Runar med i Oslo Kommunes utviklingsprosjekt.",
-            "pic": "ruf.jpg",
-            "email": "ruf@knowit.no"
-          }
-        ],
-        "title": "Typesikker front-end med Elm",
-        "type": "Lyntale (20 min)",
-        "description": "Har du noensinne gjort endringer i JavaScript og vært trygg på at du ikke brekker noe? Ikke jeg heller. Elm er et funksjonelt språk som kompilerer til JavaScript. Elm-kode er rask, typesikker, enkel å endre og meget testbar. Elm-kompilatoren gir forståelige feilmeldinger og utelukker kjøretidsfeil. Dette foredraget introduserer Elm og demonstrerer hvordan man kan lage en enkel webapp uten å tenke på JavaScript en eneste gang."
-      },
-      "beyond_compare": {
-        "pending": false,
-        "speakers": [
-          {
-            "name": "Henrik Dæhli",
-            "bio": "Henrik er senior Javautvikler med erfaring fra utvikling i både store forretningskritiske systemer med svært høye krav til oppetid og kodekvalitet, til små applikasjoner på mobil plattform. Han er sertifisert ScrumMaster, liker å jobbe smidig med fokus på høy kvalitet. I prosjekt trives han å samarbeide tett med forretningssiden for å finne de beste løsningene. I sine siste prosjekter har han fått erfaring med kontinuerlinge leveranser, skyløsninger og hvordan man forbedrer store legacy-systemer samtidig som man også leverer ny funksjonalitet.",
-            "pic": "hed.jpg",
-            "email": "hed@knowit.no"
-          }
-        ],
-        "title": "Beyond Compare - diff it all",
-        "type": "Lyntale (10 min)",
-        "description": "Kunne du tenkte deg å alltid klare \"Finn 5 feil\" i Donald, enkelt lage diff-rapporter eller automatisk synkronisere kataloger og filer fra et grafisk brukergrensesnitt (dvs uten å lære deg Rsync). Er du ikke helt komfortabel med \"git diff\", men liker å bruke git fra kommandolinja? Beyond Compare er en viktig del av min Git commit workflow og i denne lyntalen vil jeg vise noen smakebiter hva det kan brukes til."
-      },
-      "postman": {
-        "pending": false,
-        "speakers": [
-          {
-            "name": "Stian Lågstad",
-            "bio": "Stian ble uteksaminert fra Universitetet i Oslo i juni 2016 med mastergrad i bioinformatikk. Gjennom studiene har han fått erfaring med Python, R, Java, LISP, og gjennom deltidsjobben som konsulent for Realfagsbiblioteket jobbet han mye med Javascript. Hos Knowit Objectnet gikk han inn i LISA-prosjektet hos NSB, der han jobber med Java og rammeverk som Spring og Feign.",
-            "pic": "stian.lagstad.jpg",
-            "email": "stian.lagstad@knowit.no"
-          }
-        ],
-        "title": "LISA-prosjektet tok i bruk Postman and you won't believe what happened next!",
-        "type": "Lyntale (15 min)",
-        "description": "Postman hjelper deg å utvikle API'er raskere. Jeg skal vise hvordan du kan bruke Postman i ditt prosjekt, med erfaringer fra LISA-prosjektet. Du vil lære noe om hvordan du kan kjøre requests, teste endepunkter, dokumentere APIer, og hvordan Postman gjør det enkelt å samarbeide om APIer."
-      },
-      "kotlin": {
-        "pending": false,
-        "speakers": [
-          {
-            "name": "Kennet Vuong",
-            "bio": "Kennet er en ivrig utvikler som stadig er på jakt etter nye utfordringer og teknologier. Han ser på seg selv som en full-stack utvikler som trives godt på front-end siden med web og mobil utvikling, men også på back-end med database og server applikasjoner. Gjennom tidligere erfaringer har Kennet utviklet mobil applikasjoner ved bruk av webteknologier som JavaScript, HTML5 og CSS. Kennet har erfaring med rollen som DevOps-utvikler og har jobbet mye med objektorientert systemutvikling på JVM'en og har stor interesse for forskjellige JVM språk som Kotlin og Clojure. Som person er Kennet positiv, ansvarsfull og ambisiøs, han ønsker alltid å utvikle seg faglig og liker godt å prøve nye og krevende utfordringer som kan bidra til at Kennet blir en bedre utvikler og konsulent.",
-            "pic": "kennet.vuong.jpg",
-            "email": "kennet.vuong@knowit.no"
-          }
-        ],
-        "title": "Kotlin – Et språk for alt!",
-        "type": "Lyntale (15 min)",
-        "description": "Du har mest sannsynlig hørt JVM språk som Scala, Clojure, Java, Ceylon eller kanskje Jython eller Jruby?<br/>Hold deg fast, Kotlin er enda et nytt språk som kjøres på JVM’en. Kotlin er utviklet av Jetbrains og har endelig kommet ute av betafasen.<br/>Kotlin er et enkelt og statisk typet programmeringspråk som er fri for null pointer exceptions og 100% kompatibel med Java, og det kan brukes til mobil- og nettleser utvikling.<br/>Målet med denne lyntalen er å gi deg noen nye ideer om hvordan du kan ta i bruk Kotlin i ditt neste prosjekt."
-      }
+        {
+          "time": "15:00-15:15 Pause",
+          "isBreak": true
+        },
+        {
+          "time": "15:15-16:15 Fag",
+          "entries": [
+            {
+              "room": "Code & Frameworks",
+              "slots": [
+                "clean_code",
+                "final_const",
+                "spring_boot",
+                "sjakkmotor"
+              ]
+            },
+            {
+              "room": "Tools",
+              "slots": [
+                "jenkins_2",
+                "beyond_compare",
+                "git",
+                "postman"
+              ]
+            },
+            {
+              "room": "Frontend",
+              "slots": [
+                "storybook",
+                "elm",
+                "hololens"
+              ]
+            },
+            {
+              "room": "Kanban",
+              "slots": [
+                "kanban_workshop"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "16:15-16:30 Pause",
+          "isBreak": true
+        },
+        {
+          "time": "16:30-18:00 Intro til Open Space og lage program",
+          "entries": [
+            {
+              "room": "Alle rom",
+              "slots": [
+                "openspace"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "18:00-20:00 Fritid før middag",
+          "isBreak": true
+        }
+      ]
+    },
+    {
+      "day": "Lørdag 15. oktober",
+      "collections": [
+        {
+          "time": "10:00-10:30 God morgen & fagstrategi",
+          "entries": [
+            {
+              "room": "Felles",
+              "slots": [
+                "fagstrategi"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:30-10:45 Pause",
+          "isBreak": true
+        },
+        {
+          "time": "10:45-11:45 Foredrag",
+          "entries": [
+            {
+              "room": "Felles",
+              "slots": [
+                "presentasjonsteknikk"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:00-13:00 Fag",
+          "entries": [
+            {
+              "room": "Arkitektur & metode",
+              "slots": [
+                "arne",
+                "event_source",
+                "c4"
+              ]
+            },
+            {
+              "room": "Other Languages",
+              "slots": [
+                "sql",
+                "kotlin",
+                "max"
+              ]
+            },
+            {
+              "room": "Soft skills",
+              "slots": [
+                "prosjekt_faggruppe",
+                "mlaas",
+                "øltapping",
+                "ruter_fagruppe"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "14:00 Buss hjem",
+          "isBreak": true
+        }
+      ]
     }
+  ],
+  "talks": {
+    "fagstrategi": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Jan Henrik Gundelsby",
+          "bio": "Jan Henrik er fagsjef i Knowit Objectnet. Han har 20 års erfaring med teknologi på JVMen. Har de siste årene syslet mye med applikasjonsdrift, mikrotjenester og DevOps sentralt i Oslo kommune. En ivrig lettvekts-fantast som forsøker å jobbe mot smidige arkitekturer og løsninger.",
+          "pic": "jhg.jpg",
+          "email": "jhg@knowit.no"
+        },
+        {
+          "name": "Haakon Spilde",
+          "bio": "Haakon er fagsjef i Knowit Objectnet. Haakon er lidenskapelig opptatt av prosess og metode, med særlig fokus på Agile teknikker. Hvordan lære av sine feil, hvordan endre sine metoder og prosesser til det bedre og hvordan få et team til å fungere optimalt er tema som opptar Haakon.",
+          "pic": "hfs.jpg",
+          "email": "hfs@knowit.no"
+        }
+      ],
+      "title": "Fagstrategi",
+      "type": "Foredrag (30 min)",
+      "description": "Hva er Knowit Objectnets fagstrategi? I denne halvtimen presenteres vårt \"Center Of Excellence systemutvikling\", neste års fagplan og hvilke faglige satsningsområder vi har fremover."
+    },
+    "final_const": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Ole Bakstad",
+          "bio": "Ole er en faglig engasjert utvikler som interesserer seg for alt fra programmering til utviklingsprosesser og organisasjonskultur. Spesielt interessert i hvordan tekniske valg påvirker måten man jobber på, jobbhverdagen til de ansatte og evnen til å skape verdi over tid. Aktiv medlem av JavaBin og JavaZone sin programkomité.",
+          "pic": "ob.jpg",
+          "email": "olebak@knowit.no"
+        }
+      ],
+      "title": "Final? Gi meg const!",
+      "type": "Lyntale (10 min)",
+      "description": "Som tidligere C++-utvikler var jeg fornøyd da jeg så at Java hadde et final-keyword. Gleden var dog kortvarig da jeg fant ut hvor liten effekt final faktisk har når man jobber i en stor og gammel kodebase. C og C++ er kanskje kjent for segfaults, minnelekasjer og udefinert oppførsel, men noe har de gjort rett. I denne talken introduserer jeg C++ sitt keyword const, hvilket problem dette løser og hvorfor Java burde ha noe tilsvarende."
+    },
+    "hololens": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Christian Egeberg",
+          "bio": "Christian er en .Net utvikler med fokus på skyarkitektur og mobil. Han har dyp interesse for alle slags dingser og teknologi, liker å gjøre ting grundig, og tenker ofte utenfor bokser. Christian kan til tider sette umåtelig pris på bevisst å befinne seg på feil jorde.",
+          "pic": "ceg.jpeg",
+          "email": "ceg@knowit.no"
+        }
+      ],
+      "title": "Hvordan programmere Microsoft HoloLens",
+      "type": "Lyntale (20 min)",
+      "description": "Hvorfor er HoloLens forskjellig fra andre Virtual Reality briller, og hvordan programmerer man for den. API støtte for world coordinates, gestures, gaze, voice, spatial sound og spatial mapping. Ja, jeg tar med en HoloLens."
+    },
+    "max": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Andreas Bade",
+          "bio": "Andreas har jobbet så lenge i Knowit at han har e-postadresse på to bokstaver. Han har programmert profesjonelt over i ti år, i hovedsak i Java, men også i .net. Han jobber nå som prosjektleder og teamleder, men er fortsatt glad i fikle med ting som er morsomme å fikle med.",
+          "pic": "ab.png",
+          "email": "ab@knowit.no"
+        }
+      ],
+      "title": "Hippieprogrammering i Max",
+      "type": "Lyntale (20 min)",
+      "description": "Max er et programmeringsspråk som lar deg kombinere media og hardware på kreative måter. Språket ble laget på midten av åttitallet, men er fortsatt poplært. Det er et visuelt programmeringsspråk. Til tross for dette, er språket givende å programmere i og har et godt utviklingsmiljø.<br/><br/>Språket finnes i en open source variant som heter Pure Data.<br/><br/>Dette foredraget vil gi en kort innføring i språket og demoer for å vise mulighetene. Hensikten er å gi en overordnet forståelse av språket og mulige anvendelsesområder.<br/><br/>Foredraget egner seg både for de som kan programmere og ikke-programmere. Språket er veldig annerledes andres språk, så en begrenset “teknisk balast” kan tilogmed være en fordel."
+    },
+    "fuse": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Håkon Gulbrandsen & Joakim Lehn",
+          "bio": "Håkon og Joakim er backend utviklere som holder til på Oslo Kommune PFF prosjektet. De har særdeles lite app-utviklings erfaring å skryte av, og kan heller ikke noen ting om frontend, JavaScript eller noe annet som brukes i Fuse. Begge to har utdannelsen sin fra NTNU, og har ca et års fartstid som (betalte) utviklere.",
+          "pic": "hakon.gulbrandsen.png",
+          "email": "hakon.gulbrandsen@knowit.no,joakim.lehn@knowit.no"
+        },
+        {
+          "name": "",
+          "bio": "",
+          "pic": "joakim.lehn.jpg",
+          "email": ""
+        }
+      ],
+      "title": "Fuse - Real deal?",
+      "type": "Lyntale (10 min)",
+      "description": "Hva skjer om du tar et par backend-utviklere og gir dem frie tøyler med et ferskt kryss-plattform mobilutviklingsrammeverk?<br/>Siden påske har vi brukt fagtimene til å finne ut svaret på akkurat det, ved å prøve å lage en app i Fuse!<br/>Vi ser kjapt på om Fuse er egnet og modent nok til kommersielt bruk, og viser fram tidenes app!"
+    },
+    "c4": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Rune Myrdal",
+          "bio": "Rune har jobbet i 18 år som systemutvikler, de siste 13 årene i Knowit Objectnet. Han jobber like gjerne som utvikler som teknisk eller funksjonell arkitekt. De siste årene har Rune jobbet hos SVV, Politiet, Telenor, TAD (ELSÆR), Skatteetaten, Oslo kommune (PET) og er nå tilbake hos Skatteetaten og skal være med å modernisere Folkeregisteret.",
+          "pic": "rmy.jpg",
+          "email": "rmy@knowit.no"
+        }
+      ],
+      "title": "Lei av rotete arkitekturtegninger? Ta en titt på C4 modellen.",
+      "type": "Lyntale (10 min)",
+      "description": "På Knowit sin arkitektskole 2015/2016 presenterte Simon Brown C4 modellen. Flere enn de som gikk på og skal gå på Knowit sin arkitektskole kan ha nytte av å kjenne til C4 modellen og hvordan beskrive software arkitektur på en oversiktlig måte. Foredraget vil ta for seg C4 modellen som ble presentert på Knowit sin arkitektskole beskrevet i bøkene til Simon Brown: \"Software Architecture for Developers\" og \"The Art of Visualising Software Architecture (Communicating software architecture with sketches, diagrams and the C4 model)\"."
+    },
+    "presentasjonsteknikk": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Michael Johansen",
+          "bio": "IT-konsulent på dagen, startup founder om natten. På NTNU studerte Michael entreprenørskap, informatikk og psykologi. Under studiene tok han et år fri for å sitte i NTNUs styre. I startup-verden har han fått førstehåndserfaring med startup-scenen i både Boston og Silicon Valley. Mennesker og maskiner er de to tingene som interesserer ham mest. Forøvrig er han temmelig systematisk. Michael bryr seg mer enn de fleste om presentasjonsteknikk, og det er et tema han gjerne vil dele sine tanker om på fagseminaret i Fredrikstad.",
+          "pic": "Michael.png",
+          "email": "michael.johansen@knowit.no"
+        }
+      ],
+      "title": "Presentasjonsteknikk",
+      "type": "Foredrag (60 min)",
+      "description": "Nesten alle PowerPoint-presentasjoner er elendige. Tilskuere klager stille på kvaliteten, men gir sjelden reell feedback til foredragsholdere. Og foredragsholderne selv får minimalt med opplæring om hverken menneskelige eller tekniske aspekter ved å holde en presentasjon. For å strø salt i såret er det ingen av de som holder foredrag om presentasjonsteknikk som er gode på det tekniske, så de prater kun om det menneskelige. I dette foredraget dekker vi alt. Vi tar vi en praktisk tilnærming, der alt du lærer her kan brukes direkte i ditt foredrag. Ta med laptopen og åpne notepad."
+    },
+    "sky_ting": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Rune Storløpa",
+          "bio": "Tåkefyrste, som har funnet sitt hjem i skyen de siste årene…",
+          "pic": "rst.jpg",
+          "email": "rst@knowit.no"
+        }
+      ],
+      "title": "The cloud - what have you done for us lately…",
+      "type": "Lyntale (20 min)",
+      "description": "Ting og tang vi har plukket opp underveis og erfaringer vi har gjort oss etter å ha levd i Amazon-skyen et års tid."
+    },
+    "elm": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Runar Furenes",
+          "bio": "Runar hadde sommerjobb i Knowit i 2011. Etter endt utdannelse jobbet han et halvt år i statlig sektor, før han begynte i fast stilling hos Knowit desember 2013. Han har erfaring med ulike programmeringsspråk og teknologier, og er spesielt opptatt av funksjonell programmering. Fra 2013 til dags dato er Runar med i Oslo Kommunes utviklingsprosjekt.",
+          "pic": "ruf.jpg",
+          "email": "ruf@knowit.no"
+        }
+      ],
+      "title": "Typesikker front-end med Elm",
+      "type": "Lyntale (20 min)",
+      "description": "Har du noensinne gjort endringer i JavaScript og vært trygg på at du ikke brekker noe? Ikke jeg heller. Elm er et funksjonelt språk som kompilerer til JavaScript. Elm-kode er rask, typesikker, enkel å endre og meget testbar. Elm-kompilatoren gir forståelige feilmeldinger og utelukker kjøretidsfeil. Dette foredraget introduserer Elm og demonstrerer hvordan man kan lage en enkel webapp uten å tenke på JavaScript en eneste gang."
+    },
+    "beyond_compare": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Henrik Dæhli",
+          "bio": "Henrik er senior Javautvikler med erfaring fra utvikling i både store forretningskritiske systemer med svært høye krav til oppetid og kodekvalitet, til små applikasjoner på mobil plattform. Han er sertifisert ScrumMaster, liker å jobbe smidig med fokus på høy kvalitet. I prosjekt trives han å samarbeide tett med forretningssiden for å finne de beste løsningene. I sine siste prosjekter har han fått erfaring med kontinuerlinge leveranser, skyløsninger og hvordan man forbedrer store legacy-systemer samtidig som man også leverer ny funksjonalitet.",
+          "pic": "hed.jpg",
+          "email": "hed@knowit.no"
+        }
+      ],
+      "title": "Beyond Compare - diff it all",
+      "type": "Lyntale (10 min)",
+      "description": "Kunne du tenkte deg å alltid klare \"Finn 5 feil\" i Donald, enkelt lage diff-rapporter eller automatisk synkronisere kataloger og filer fra et grafisk brukergrensesnitt (dvs uten å lære deg Rsync). Er du ikke helt komfortabel med \"git diff\", men liker å bruke git fra kommandolinja? Beyond Compare er en viktig del av min Git commit workflow og i denne lyntalen vil jeg vise noen smakebiter hva det kan brukes til."
+    },
+    "postman": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Stian Lågstad",
+          "bio": "Stian ble uteksaminert fra Universitetet i Oslo i juni 2016 med mastergrad i bioinformatikk. Gjennom studiene har han fått erfaring med Python, R, Java, LISP, og gjennom deltidsjobben som konsulent for Realfagsbiblioteket jobbet han mye med Javascript. Hos Knowit Objectnet gikk han inn i LISA-prosjektet hos NSB, der han jobber med Java og rammeverk som Spring og Feign.",
+          "pic": "stian.lagstad.jpg",
+          "email": "stian.lagstad@knowit.no"
+        }
+      ],
+      "title": "LISA-prosjektet tok i bruk Postman and you won't believe what happened next!",
+      "type": "Lyntale (15 min)",
+      "description": "Postman hjelper deg å utvikle API'er raskere. Jeg skal vise hvordan du kan bruke Postman i ditt prosjekt, med erfaringer fra LISA-prosjektet. Du vil lære noe om hvordan du kan kjøre requests, teste endepunkter, dokumentere APIer, og hvordan Postman gjør det enkelt å samarbeide om APIer."
+    },
+    "kotlin": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Kennet Vuong",
+          "bio": "Kennet er en ivrig utvikler som stadig er på jakt etter nye utfordringer og teknologier. Han ser på seg selv som en full-stack utvikler som trives godt på front-end siden med web og mobil utvikling, men også på back-end med database og server applikasjoner. Gjennom tidligere erfaringer har Kennet utviklet mobil applikasjoner ved bruk av webteknologier som JavaScript, HTML5 og CSS. Kennet har erfaring med rollen som DevOps-utvikler og har jobbet mye med objektorientert systemutvikling på JVM'en og har stor interesse for forskjellige JVM språk som Kotlin og Clojure. Som person er Kennet positiv, ansvarsfull og ambisiøs, han ønsker alltid å utvikle seg faglig og liker godt å prøve nye og krevende utfordringer som kan bidra til at Kennet blir en bedre utvikler og konsulent.",
+          "pic": "kennet.vuong.jpg",
+          "email": "kennet.vuong@knowit.no"
+        }
+      ],
+      "title": "Kotlin – Et språk for alt!",
+      "type": "Lyntale (15 min)",
+      "description": "Du har mest sannsynlig hørt JVM språk som Scala, Clojure, Java, Ceylon eller kanskje Jython eller Jruby?<br/>Hold deg fast, Kotlin er enda et nytt språk som kjøres på JVM’en. Kotlin er utviklet av Jetbrains og har endelig kommet ute av betafasen.<br/>Kotlin er et enkelt og statisk typet programmeringspråk som er fri for null pointer exceptions og 100% kompatibel med Java, og det kan brukes til mobil- og nettleser utvikling.<br/>Målet med denne lyntalen er å gi deg noen nye ideer om hvordan du kan ta i bruk Kotlin i ditt neste prosjekt."
+    },
+    "scala_script": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Are Husby",
+          "bio": "Systemutvikler/programmerer med Scala, Java, backend og objektorientering som kjernekompetanse. Begynte i Knowit i april 2015. Har åtte års erfaring som utvikler i Skattedirektoratet, hvor jeg de fire siste årene jobbet med med Java-programmering i flere prosjekter. Erfaringen med en stor organisasjon med IT-systemer med lang levetid har gitt meg interesse for blant annet kodekvalitet, smidig utviklingsmetodikk, testing og funksjonell programmering. Noen utviklere kommer til programmeringsfaget med en matematisk tankegang, mens andre er pragmatiske hackere. Jeg sammenligner god programkode med tekst i naturlige språk, og mener at billig og trygg forvaltning av programkode henger sammen med graden av lesbarhet for mennesker.",
+          "pic": "are.jpg",
+          "email": "are.husby@knowit.no"
+        }
+      ],
+      "title": "Scala kan brukes som skriptespråk",
+      "type": "Lyntale (10 min)",
+      "description": "Scala er i likhet med Java et \"general purpose\"-språk, som er mest kjent som et backend-språk. Men Scala har flere bruksområder, f.eks. frontend-utvikling med Scala.js, maskinvarenær utvikling  med Scala Native, samt at Scala egner seg som implementasjonspråk for DSL-er (domain  specific languages).  I denne lyntalen vil jeg gjør folk oppmerksommme på at Scala også kan brukes til skripting, istedenfor Linux bash/shell, Perl eller Python. Som eksempler vil jeg vise to små skript som jeg har lagd selv med liten innsats, som jeg bruker i min utviklerhverdag sammen med Git og Maven."
+    },
+    "clean_code": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Henning Koller",
+          "bio": "Henning er en dyktig og samvittighetsfull konsulent som har vært ansatt i Knowit Objectnet siden 2014. Henning hadde sommerjobb i Knowit sommeren 2014 og har jobbet deltid ved siden av studier fram til han startet på fulltid høsten 2016. Henning har sin kjernekompetanse innefor scala og java, men har i tillegg god kompetanse på frontendteknologier som wicket, javascript og backbone og noe react.js. Henning er utdannet ved Universitetet i Oslo. I Mai 2016 leverte han sin masteroppgave, hvor han forsket på effekten av Clean Code på kodes forståelighet. I løpet av studietiden har Henning sittet i fadderstyret, samt vært med på å starte studentforeningen ProgNett. Henning jobber både frontend og backend, men trives best med backend. Han er interessert i ny teknologi og streber etter å lære nye og spennende ting.",
+          "pic": "",
+          "email": "henkol@knowit.no"
+        }
+      ],
+      "title": "Effects of Clean Code on Understandability",
+      "type": "Lyntale (15 min)",
+      "description": "Lesbar og forståelig kode er viktig. Endringer som i utgangspunktet skal være lette og gjennomføre kan fort bli gjort komplekse og tidkrevende av dårlig kode. I boken Clean Code presenterer Robert C. Martin sin løsning på hvordan man kan oppnå forståelig og lesbar kode. Boken er populær og anerkjent, og \"clean code\" har blitt et synonym for pen og bra kode.<br/><br/>Men skriver du virkelig mer forståelig kode hvis du følger reglene og prinsippene til Robert Martin?"
+    },
+    "spring_boot": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Gunnar Velle",
+          "bio": "Gunnar er ein allsidig konsulent som har vore involvert i fleire spennande og samfunnsnyttige prosjekt innafor offentleg forvaltning, men også innan industri, media og telekom. Gunnar er alltid oppdatert på kva som finnes av nye teknologiar, verktøy og rammeverk innen Java og fri programvare, og har stor glede av å utnytte dette i prosjekt der teknologien passar inn. Gunnar har jobba med brukergrensesnitt i nettbaserte løsninger i ei årrekke. Han er spesielt interessert i grensesnittet mellom teknologi og menneske, og er opptatt av brukeropplevelsen i prosjekta han er involvert i. En av Gunnars sterkeste sider er at han har en god forståelse av teknologi og klarer raskt å sette seg inn i nye problemstillinger. Gunnar har vore med i driftsgruppa i Knowit Objectnet siden 2004, med ansvar for maskinvare, infrastruktur og brukerhjelp for ansatte.",
+          "pic": "gv_knowit.no.jpg",
+          "email": "gv@knowit.no"
+        }
+      ],
+      "title": "Enkel overvåking av Spring Boot applikasjoner.",
+      "type": "Lyntale (20 min)",
+      "description": "Spring Boot er en enkel måte å lage javaapplikasjoner som kan kjøres som frittstående tjenester. Rammeverket inkluderer funksjonalitet for administrasjon og overvåking av metrikker, men dersom du har mange applikasjoner trenger du en plass å samle alt dette. Løsningen er en egen adminapplikasjon med Spring Boot Admin og Javamelody.<br/>Presentasjonen er basert på erfaringer gjort i DSB og som tas videre i Statsbygg."
+    },
+    "openspace": {
+      "pending": false,
+      "title": "Open Space",
+      "type": "Open Space",
+      "description": "En selvorganiserende konferanseform. Vi lager agenda sammen. Detaljer, les her <a href=\"https://en.wikipedia.org/wiki/Open_Space_Technology\">https://en.wikipedia.org/wiki/Open_Space_Technology</a>"
+    }
+  }
 }
