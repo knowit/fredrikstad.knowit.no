@@ -181,7 +181,7 @@
       "speakers": [
         {
           "name": "Jan Henrik Gundelsby",
-          "bio": "Jan Henrik er fagsjef i Knowit Objectnet. Han har 20 års erfaring med teknologi på JVMen. Har de siste årene syslet mye med applikasjonsdrift, mikrotjenester og DevOps sentralt i Oslo kommune. En ivrig lettvekts-fantast som forsøker å jobbe mot smidige arkitekturer og løsninger.",
+          "bio": "Jan Henrik er fagsjef i Knowit Objectnet. Jobber for tiden litt hos Eika med arkitektur. Driver også med salg, marked og hvordan vi skal få de rette nye prosjektene. Glad i naturen og lidenskapelig opptatt av fag!",
           "pic": "jhg.jpg",
           "email": "jhg@knowit.no"
         },
@@ -194,7 +194,7 @@
       ],
       "title": "Fagstrategi",
       "type": "Foredrag (30 min)",
-      "description": "Hva er Knowit Objectnets fagstrategi? I denne halvtimen presenteres vårt \"Center Of Excellence systemutvikling\", neste års fagplan og hvilke faglige satsningsområder vi har fremover."
+      "description": "Hva skal vi jobbe med fremover og hvordan skal vi jobbe? Stikkord er autonome team og kontinuerlig forbedring av kundens produkter!"
     },
     "final_const": {
       "pending": false,
