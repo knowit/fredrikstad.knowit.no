@@ -162,7 +162,6 @@
               "slots": [
                 "prosjekt_faggruppe",
                 "mlaas",
-                "øltapping",
                 "ruter_fagruppe"
               ]
             }
@@ -403,6 +402,124 @@
       "title": "Open Space",
       "type": "Open Space",
       "description": "En selvorganiserende konferanseform. Vi lager agenda sammen. Detaljer, les her <a href=\"https://en.wikipedia.org/wiki/Open_Space_Technology\">https://en.wikipedia.org/wiki/Open_Space_Technology</a>"
+    },
+    "event_source": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Yngvar Kristiansen",
+          "bio": "Yngvar er utvikler og har jobbet med back-end, front-end, drift og programvarearkitektur. Han har erfaring fra komplekse, forretningskritiske applikasjoner, behandling av store datamengder, og web-applikasjoner. Yngvar har personlig interesse for kodekvalitet, testing, arkitektur og brukervennlighet, og fokuserer alltid på å gjøre ting riktig framfor å ta snarveier. Samtidig sikter han på å løse forretningsbehov, og er løsningsorientert i arbeidet sitt. Teamarbeid og diskusjoner er noe Yngvar er vant med og trives med, og han ses på som en lagspiller. Han jobber likevel godt selvstendig, og er en pådriver for progresjon.",
+          "pic": "Yngvar_Kristiansen.jpg",
+          "email": "yngvar.kristiansen@knowit.no"
+        }
+      ],
+      "title": "Hvordan vi forbedret en kompleks løsning for prosessering av millioner av ytelser i NAV",
+      "type": "Lyntale (15 min)",
+      "description": "Mitt forrige prosjekt gikk ut på å rapportere millioner av NAVs ulike ytelser (feks sykepenger) til Skatteetaten og SSB (\"A-ordningen\"). Teamet mitt overtok en lite egnet og kompleks batch-løsning som ikke taklet feilsituasjoner eller feilrapportering, hadde dårlig ytelse og selvfølgelig passe rotete kode. Vi forbedret løsningen ved å lage mange små, separate steg, samt å bruke enkel event sourcing (\"aldri kjør update eller delete i databasen\"). Denne presentasjonen vil gi deg økt innsikt i feilvalg innen arkitektur, kodestruktur og databasebehandling, og hvordan du kan løse disse."
+    },
+    "git": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Christoffer Eliesen",
+          "bio": "Christoffer er en engasjert utvikler som brenner for IT. Han er nysgjerrig og glad i å lære nye ting. Han stiller høye krav til seg selv og det han leverer, men er pragmatisk når det trengs. Hans interesse for IT spenner seg hele veien fra operativsystem til brukergrensesnitt, og han er derfor en naturlig fullstack og \"devops\" utvikler. I disse tider er det frontend som er i vinden og Christoffers hjerte følger etter. React og Node er spennende teknologier som passer han midt i blinken. Både \"gammel\" jQuery og ny React er teknologier som er givende å jobbe med for Christoffer. Flere års erfaring har gjort han trygg i rollen som konsulent. Han er beskjeden, samtidig som han er en dyp tenker med rolige øyne og et brennende hjerte.",
+          "pic": "christoffer.eliesen.JPG",
+          "email": "christoffer.eliesen@knowit.no"
+        }
+      ],
+      "title": "Git: Fra din verste fiende til din beste venn.",
+      "type": "Lyntale (20 min)",
+      "description": "Jeg vil tro de fleste ser på og bruker Git kun som et versjonskontrollsystem, nesten som et slags nødvendig onde.<br/></br/>I denne presentasjonen vil jeg vise fram hvordan man kan bruke Git som et kodeverktøy, og hvordan det kan gjøre deg til en mer effektiv utvikler."
+    },
+    "dibk_sky": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Henning Wold",
+          "bio": "Henning er en glad og engasjert systemutvikler som elsker teknologi og å bruke denne til å løse problemer på best mulig måte. Han trives med oppgaver som krever planlegging og gjennomtenking for å løses på en god måte. Han har variert erfaring, både fra backendsystemer utviklet med Java og Scala, til webapplikasjoner utviklet med Ruby on Rails, HTML5, CSS og JavaScript. I tillegg har han erfaring fra apputvikling til Apple iOS, da primært i det nye programmeringsspråket Swift. Han har bakgrunn fra NTNU der han fullførte sin mastergrad våren 2015.",
+          "pic": "Henning.Wold.300x375.png",
+          "email": "henwol@knowit.no"
+        }
+      ],
+      "title": "So you think you can cloud?",
+      "type": "",
+      "description": "Har du noen gang lurt på hvordan det er å ta et prosjekt ut i skyen? I denne talken vil vi presentere våre erfaringer, og utfordringer som oppsto, da vi flyttet DiBK prosjektet over fra egenhostede servere til å kjøre i dockercontainere på Azure. Prosjektet er et Rubyprosjekt, men selve talken vil fokusere mest på infrastruktur og konfigurasjon."
+    },
+    "ruter_fagruppe": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Stian Flatby",
+          "bio": "Stian er en systemutvikler med erfaring på mobil, desktop, web, og backend. Han har en dyp indre motivasjon for utvikling, og interesserer seg spesielt for iOS-plattformen med både Objective-C og Swift. Stian er hardtarbeidende og opptatt av kvalitet, og trives godt med å jobbe både selvstendig og i team. Han jobber ofte med småprosjekter på fritid og i ferie for å lære mer og holde seg oppdatert. Stian har Bachelor i Informasjonsteknologi med fokus på applikasjonsutvikling fra Høgskolen i Oslo og Akershus.",
+          "pic": "stian.flatby.png",
+          "email": "stian.flatby@knowit.no"
+        },
+        {
+          "name": "Johan Reitan",
+          "bio": "Johan er en systemutvikler med master i Datateknikk ved NTNU der han spesialiserte seg i kunstig intelligens. Hovedinteressen har vært maskinlæring, gjerne sammen med språkteknologi, som han har jobbet mye med. Linux og åpen kildekode er en lidenskap, og mye av fritiden hans går med på eksperimentering med og bidrag til åpne prosjekter. Han har mye erfaring med Python og diverse Python-rammeverk, samt Android og Java, men har også jobbet med .NET.",
+          "pic": "Johan.Reitan.300x375.jpg",
+          "email": "johan.reitan@knowit.no"
+        }
+      ],
+      "title": "Nytt konsept for reiseassistent",
+      "type": "Lyntale (10 min)",
+      "description": "Lyntale om å ha faggruppe om sitt aktuelle prosjekt, og om samarbeid mellom utviklere, designere, og kunde. Vi utfordrer Ruter med våre egne ideer gjennom eksperimenter i faggruppe."
+    },
+    "storybook": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Alexander Bjerkan",
+          "bio": "Alexander har god erfaring som systemutvikler i smidige team og har bygget opp betydelig kompetanse innenfor et bredt spekter av teknologier og ansvarsområder. Han har jobbet med alt fra små hobbyprosjekter til store samfunnskritiske systemer og han brenner for håndverket og kvaliteten i IT-faget. Som person søker Alexander stadig å utvikle sin tekniske horisont med nye teknologier og kunnskap.",
+          "pic": "alb_knowit.no.jpg",
+          "email": "alb@knowit.no"
+        }
+      ],
+      "title": "Hvordan utvikle og dokumentere dine React componenter med React Storybook",
+      "type": "Lyntale (10 min)",
+      "description": "I denne lyntalen skal jeg vise fram React Storybook, et UI utviklingsverktøy for React komponenter. Med plugins kan det også bli brukt til å generere dokumentasjon for API og bruk av dine komponenter."
+    },
+    "arne": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Arne Løvold",
+          "bio": "Arne Løvold er konsulentleder i Knowit og en erfaren IT-rådgiver og IT-leder med kompetanse innen rådgiving, teknologi, løsningsarkitektur, forretnings¬utvikling, strategi, ledelse, salg, kompetanse¬utvikling, kundeansvar og internasjonal ledelse. Han har erfaring som leder, prosjektleder, prosjektansvarlig og løsningsutforming for integrasjon-, utvikling-, Business Intelligence og ERP-prosjekter. I tilleg har han teknisk erfaring med arkitektur, systemutvikling, infrastruktur og metoder. Han er engasjert i IT-bransjen via Smidigkonferansen og et Masterprogram på UiO.",
+          "pic": "Arne farge II.jpg",
+          "email": "arne.lovold@knowit.no"
+        }
+      ],
+      "title": "Lean and shit! What's the Fuzz, kan æ ikkje bare få kode i fred?",
+      "type": "Lyntale (20 min)",
+      "description": "Hva er Lean? Hvor kommer det fra og hvilken sammenheng har det med systemutvikling. En sammenligning med tradisjonell tankegang og Scrum, Kanban, Lean Startup, DevOps etc. Hva er egentlig Waste og flyt og slikt. Hvorfor betyr det noe for deg, hva bør du vite og hva betyr det for Knowit."
+    },
+    "feil_scala": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Anita Andersen",
+          "bio": "Anita foretrekker å jobbe i et team. Hun er som person resultatorientert, arbeidsom og liker å utforske og lære ny teknologi. Anita er spesielt interessert i teknologier som er med på forenkle systemer og utviklingsprosesser. I det siste året har hun jobbet med Scala og har fått øyne opp for funksjonell-programmering.",
+          "pic": "ana.png",
+          "email": "ana@knowit.no"
+        }
+      ],
+      "title": "Bedre feilhåndtering uten exceptions i Scala?",
+      "type": "Lyntale (10 min)",
+      "description": "Funksjonell programmering gir mange fordeler, blant annet er det mulig å få til bedre feilhåndtering. Men, hvordan kan man gjøre feilhåndtering uten exceptions? Scala har tilbyr flere måter å gjøre dette på, jeg kommer her til å se på de mest brukte teknikkene."
+    },
+    "prosjekt_faggruppe": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Henrik Stene",
+          "bio": "Henrik er engasjert, fremtidsrettet og opptatt av at kunden skal bli fornøyd. Det er viktigere å gi litt ekstra og sørge for kvalitetsarbeid. Dette krever planlegging og motivasjon, som er en del av Henrik sine mål som konsulent og utvikler. Ved siden av forskjellige interesser innen IT og teknologi, er Henrik interessert i etikk, filosofi og rettsvitenskap. Henrik har flere års erfaring som lærer og seminarforeleser innen programmeringsfag ved Universitetet i Oslo og har jobbet som konsulent siden sommeren 2014.",
+          "pic": "Henrik-Stene.jpg",
+          "email": "henrik.stene@knowit.no"
+        }
+      ],
+      "title": "Hvorfor det er for kjedelig å tappe øl med en knapp",
+      "type": "Lyntale (20 min)",
+      "description": ""
     }
   }
 }
