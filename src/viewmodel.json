@@ -1,57 +1,56 @@
 {
   "title": "Knowit Objectnet Fagseminar våren 2016",
-  "event": {
-    "date": "14.-15. oktober 2016",
-    "longDate": "14. - 15. oktober 2016",
-    "venue": "Quality Hotel Fredrikstad",
-    "city": "Fredrikstad",
-    "country": "Norge",
-    "gmapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091299.1382406687!2d8.698165322408654!3d59.21126238152752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46440327712c850d%3A0x242977c411e3527a!2sQuality+Hotel+Fredrikstad!5e0!3m2!1sno!2sno!4v1471247393134"
-  },
-  "schedules": [
-    {
-      "day": "Fredag 14. oktober",
-      "collections": [
-        {
-          "time": "14:00-15:00 Fag",
-          "entries": [
+          "event": {
+            "date": "14.-15. oktober 2016",
+            "longDate": "14. - 15. oktober 2016",
+            "venue": "Quality Hotel Fredrikstad",
+            "city": "Fredrikstad",
+            "country": "Norge",
+            "gmapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091299.1382406687!2d8.698165322408654!3d59.21126238152752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46440327712c850d%3A0x242977c411e3527a!2sQuality+Hotel+Fredrikstad!5e0!3m2!1sno!2sno!4v1471247393134"
+          },
+          "schedules": [
             {
-              "room": "Scala",
-              "slots": [
-                "scala_kjoter",
-                "feil_scala",
-                "scala_script"
-              ]
-            },
-            {
-              "room": "Cloud",
-              "slots": [
-                "knowit_cloud",
-                "sky_ting",
-                "dibk_sky"
-              ]
-            },
-            {
-              "room": "UX & Dev Coop",
-              "slots": [
-                "ux_utvikler",
-                "fuse",
-                "designer_vs_utvikler"
-              ]
-            },
-            {
-              "room": "Kanban",
-              "slots": [
-                "kanban_workshop"
-              ]
-            }
-          ]
-        },
-        {
-          "time": "15:00-15:15 Pause",
-          "isBreak": true
-        },
-        {
+              "day": "Fredag 14. oktober",
+              "collections": [
+                {
+                  "time": "14:00-15:00 Fag",
+                  "entries": [
+                    {
+                      "room": "Scala",
+                      "slots": [
+                        "scala_kjoter",
+                        "feil_scala",
+                        "scala_script"
+                      ]
+                    },
+                    {
+                      "room": "Cloud",
+                      "slots": [
+                        "knowit_cloud",
+                        "sky_ting",
+                        "dibk_sky"
+                      ]
+                    },
+                    {
+                      "room": "UX & Dev Coop",
+                      "slots": [
+                        "ux_utvikler",
+                        "fuse"
+                      ]
+                    },
+                    {
+                      "room": "Kanban",
+                      "slots": [
+                        "kanban_workshop"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "time": "15:00-15:15 Pause",
+                  "isBreak": true
+                },
+                {
           "time": "15:15-16:15 Fag",
           "entries": [
             {
@@ -59,14 +58,12 @@
               "slots": [
                 "clean_code",
                 "final_const",
-                "spring_boot",
-                "sjakkmotor"
+                "spring_boot"
               ]
             },
             {
               "room": "Tools",
               "slots": [
-                "jenkins_2",
                 "beyond_compare",
                 "git",
                 "postman"
@@ -93,7 +90,7 @@
           "isBreak": true
         },
         {
-          "time": "16:30-18:00 Intro til Open Space og lage program",
+          "time": "16:30-18:00 Intro til Open Space og lage program, så Open Space",
           "entries": [
             {
               "room": "Alle rom",
@@ -442,7 +439,7 @@
         }
       ],
       "title": "So you think you can cloud?",
-      "type": "",
+      "type": "Lyntale (20 min)",
       "description": "Har du noen gang lurt på hvordan det er å ta et prosjekt ut i skyen? I denne talken vil vi presentere våre erfaringer, og utfordringer som oppsto, da vi flyttet DiBK prosjektet over fra egenhostede servere til å kjøre i dockercontainere på Azure. Prosjektet er et Rubyprosjekt, men selve talken vil fokusere mest på infrastruktur og konfigurasjon."
     },
     "ruter_fagruppe": {
@@ -517,9 +514,57 @@
           "email": "henrik.stene@knowit.no"
         }
       ],
-      "title": "Hvorfor det er for kjedelig å tappe øl med en knapp",
+      "title": "Hvordan en øltapp ble en \"Thing of the Internet\"",
       "type": "Lyntale (20 min)",
-      "description": ""
+      "description": "I denne lyntalken skal vi snakke om hvordan vi kutte kablene til en manuell øltapp, og gjorde den til en IoT-enhet. Vi kommer til å snakke om hvordan vi brukte Docker på en RaspberryPi, hvordan vi splittet opp systemet og hvordan vi brukte unødvendige teknologier.<br/><br/>Stikkord: Embedded, Raspbian, Docker, Spring Boot, Node.js, React, PostgreSQL"
+    },
+    "kanban_workshop": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Ketil Jensen",
+          "bio": "Ketil Jensen er en erfaren konsulent og Kanban coach. Han her erfaring fra en rekke større integrasjons- og utviklingsprosjekter og driver sitt eget firma Leverage 51. Han arrangere også Kanaan kurs, Kanban workshop og Lean Coffee.",
+          "pic": "Ketil.jpg",
+          "email": ""
+        }
+      ],
+      "title": "Lær Kanban ved å spille brettspill",
+      "type": "Workshop ",
+      "description": "Kanbanspillet (The Den getKanban Board Game) er et spill designet for å undervise begreper og teknikker innen Kanban for systemutvikling. Det er hands-on, engasjerende og moro! Det har vært benyttet hos en rekke bedrifter i Oslo og brukes også på UiO for å undervise i disse konseptene. Man lærer også flere av pinsippene innen Lean i løpet av spillet, så det er også nyttig og lærerikt for ikke utviklere."
+    },
+    "scala_kjoter": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Kenneth Stigen",
+          "bio": "Kenneth har jobbet i som konsulent siden 2004, og i Knowit Objectnet siden januar 2010. Kenneth har sin kjernekompetanse innenfor arkitektur og utvikling av store løsninger på java-plattformen. Kenneth er en utadvent person og fungerer godt i team. Kenneth er også veldig interessert i teknologi og tilegner seg ny kunnskap raskt. Som gruppeleder har han personalansvar for syv konsulenter, samt medansvar for rekruttering, vurdering av muligheter, sikring av oppdrag etc. De siste årene har Kenneth jobbet på prosjekter som fokuserer på kontinuerlige leveranser og mikrotjenester.",
+          "pic": "kes_knowit.no.jpg",
+          "email": "kes@knowit.no"
+        }
+      ],
+      "title": "Scala + Elasticsearch = Sant?",
+      "type": "Lyntale (20 min)",
+      "description": "Så du har så mye data at du ikke finner det du leter etter?<br/>Du hadde et killer-argument på Facebook en gang, men finner det ikke igjen?<br/>Vi tar en titt på Elasticsearch og Elastic4s.<br/><br/>Vi går gjennom følgende:<br/>* Opprettelse av en søkeindeks<br/>* Hvordan dataene analyseres<br/>* Vi indekserer dokumenter<br/>* Forskjellige språk<br/>* Søk og sortering<br/><br/>Det vil bli kode. Mye kode."
+    },
+    "ux_utvikler": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Remi Evjenth Løvik",
+          "bio": "Remi driver med dypdykking. Vi snakker nå om “dypt” i ordets rette forstand, både i jobben sin og når han fridykker. Faglig er Remi en kraft av de sjeldene. Han brenner for lekkert design og gode brukeropplevelser. Med ferdigheter som går mot analytisk designkunnskap dyrker han observasjon, evaluering og teknologiforståelse for å støtte kreativ design. Hans ferdigheter innebærer å forstå måten folk samhandler med visuell informasjon og hvordan design best kan støtte brukeres tankeprosesser.",
+          "pic": "remi.jpg",
+          "email": "remi.evjenth.lovik@knowit.no"
+        },
+        {
+          "name": "Benn-Otto Reme-Stigel",
+          "bio": "Benn-Otto jobber med alt mulig på én gang. Den eneste gangen du vil oppleve at mannen faktisk fokuserer på kun én ting er når han har rører i en gryte med kokkejakka på. For tiden jobber han som CX-er hos Eika Kredittbank sammen Kristin og Jan Henrik. Benn-Otto svarer enten du kaller ham BO, Botto eller Bingo. Han definerer seg selv som litt snill og kan klokka.",
+          "pic": "benn-otto.jpg",
+          "email": "bo@knowit.no"
+        }
+      ],
+      "title": "Pø om Pø - Smidig utvikling av smidig utvikling",
+      "type": "Foredrag (30 min)",
+      "description": "Vi i Knowit Stavanger har som de fleste andre fokus på smidig utvikling og smidige samarbeid. Dilemma er at vi opplever vi ikke har knekt koden i praksis. Konsulentens prosessmodeller er en ting, hverdag noe helt annet.<br/><br/>I 30 minutter inviteres du til å fylle hodene våre med krav, behov, ønsker, tanker og idéer knyttet til hvordan vi kan jobbe bedre sammen på tvers av fagfelt. Et team bestående av UX-ere fra Stavanger og tech-folk fra Oslo vil så lansere første versjon av et forslag til hvordan vi kan samarbeide smidigere og imøtekomme utfordringene som du spiller inn.<br/><br/>Derfor inviterer vi deg til å bli med. Prosjektet kaller vi Pø om Pø eller PoP!<br/><br/>Første iterasjon er i Fredrikstad."
     }
   }
 }
