@@ -565,6 +565,20 @@
       "title": "Pø om Pø - Smidig utvikling av smidig utvikling",
       "type": "Foredrag (30 min)",
       "description": "Vi i Knowit Stavanger har som de fleste andre fokus på smidig utvikling og smidige samarbeid. Dilemma er at vi opplever vi ikke har knekt koden i praksis. Konsulentens prosessmodeller er en ting, hverdag noe helt annet.<br/><br/>I 30 minutter inviteres du til å fylle hodene våre med krav, behov, ønsker, tanker og idéer knyttet til hvordan vi kan jobbe bedre sammen på tvers av fagfelt. Et team bestående av UX-ere fra Stavanger og tech-folk fra Oslo vil så lansere første versjon av et forslag til hvordan vi kan samarbeide smidigere og imøtekomme utfordringene som du spiller inn.<br/><br/>Derfor inviterer vi deg til å bli med. Prosjektet kaller vi Pø om Pø eller PoP!<br/><br/>Første iterasjon er i Fredrikstad."
+    },
+    "mlaas": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Anders Breivik",
+          "bio": "Anders is a fallen mathematician with over 10 years of experience from his backup plan as a software developer. As a consultant with the Nordic consultancy Knowit, Anders enjoys working with both large critical enterprise systems and small scale mobile solutions. Currently Anders is passionate about IoT, iBeacons and mini drones.",
+          "pic": "abr.jpg",
+          "email": "abr@knowit.no"
+        }
+      ],
+      "title": "MLaaS - Machine Learning for the rest of us",
+      "type": "Lyntale (20 min)",
+      "description": "What is Machine Learning as a Service? Which do I choose? How can I use it in my application? Machine learning has long been a somewhat academic discipline, its practitioners highly specialized. But with the advent of a new class of commoditized machine learning platforms, MLaaS, Machine Learning as a Service, is now available to all developers. MLaaS can be treated as a black box, giving developers the opportunity to dive into machine learning head first. Supply your own data, build a model using tools supported by your chosen MLaaS platform and train it using the well tested algorithms offered. When ready to dig deeper into the world of machine learning, most MLaaS platforms enables us to develop our own algorithms even better tailored to our data and models. This talk will show you the state of the art of MLaaS, what the different vendors offer, and where you best can put it to use in your applications."
     }
   }
 }
