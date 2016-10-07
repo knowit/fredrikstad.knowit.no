@@ -282,6 +282,20 @@
       "type": "Foredrag (60 min)",
       "description": "Nesten alle PowerPoint-presentasjoner er elendige. Tilskuere klager stille på kvaliteten, men gir sjelden reell feedback til foredragsholdere. Og foredragsholderne selv får minimalt med opplæring om hverken menneskelige eller tekniske aspekter ved å holde en presentasjon. For å strø salt i såret er det ingen av de som holder foredrag om presentasjonsteknikk som er gode på det tekniske, så de prater kun om det menneskelige. I dette foredraget dekker vi alt. Vi tar vi en praktisk tilnærming, der alt du lærer her kan brukes direkte i ditt foredrag. Ta med laptopen og åpne notepad."
     },
+    "knowit_cloud": {
+      "pending": false,
+      "speakers": [
+        {
+          "name": "Hågen Hasle",
+          "bio": "Hågen jobber som arkitekt hos politiet til daglig, og er over snittet interessert i skyen (og turutstyr).",
+          "pic": "hph.jpg",
+          "email": "hph@knowit.no"
+        }
+      ],
+      "title": "Knowit Cloud",
+      "type": "Lyntale (20 min)",
+      "description": "Cloud - state of the union, status på skybruk i Knowits prosjekter. Dette korte foredraget er en innledning til Open Space senere på dagen om Knowit sin nye skysatsning!"
+    },
     "sky_ting": {
       "pending": false,
       "speakers": [
