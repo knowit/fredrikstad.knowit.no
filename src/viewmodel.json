@@ -13,6 +13,10 @@
               "day": "Fredag 14. oktober",
               "collections": [
                 {
+                  "time": "12:00 Buss fra U7",
+                  "isBreak": true
+                },
+                {
                   "time": "14:00-15:00 Fag",
                   "entries": [
                     {
@@ -103,6 +107,18 @@
         {
           "time": "18:00-20:00 Fritid før middag",
           "isBreak": true
+        },
+        {
+          "time": "19:30 Aperitif før middag",
+          "isBreak": true
+        },
+        {
+          "time": "20:00 Middag",
+          "isBreak": true
+        },
+        {
+          "time": "22:00 og 22:30 Buss tilbake til takterrassen på hotellet 🍻🍸🍾",
+          "isBreak": true
         }
       ]
     },
@@ -110,7 +126,7 @@
       "day": "Lørdag 15. oktober",
       "collections": [
         {
-          "time": "10:00-10:30 God morgen & fagstrategi",
+          "time": "10:00-10:30 God morgen & fagstrategi 😴",
           "entries": [
             {
               "room": "Felles",
