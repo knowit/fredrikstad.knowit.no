@@ -43,7 +43,7 @@
                       ]
                     },
                     {
-                      "room": "Kanban",
+                      "room": "Kanban (del 1)",
                       "slots": [
                         "kanban_workshop"
                       ]
@@ -82,7 +82,7 @@
               ]
             },
             {
-              "room": "Kanban",
+              "room": "Kanban (del 2)",
               "slots": [
                 "kanban_workshop"
               ]
