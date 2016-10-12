@@ -20,7 +20,7 @@
                   "time": "14:00-15:00 Fag",
                   "entries": [
                     {
-                      "room": "Scala",
+                      "room": "Scala - rom Diamant 1",
                       "slots": [
                         "scala_kjoter",
                         "feil_scala",
@@ -28,7 +28,7 @@
                       ]
                     },
                     {
-                      "room": "Cloud",
+                      "room": "Cloud - rom Diamant 2/3",
                       "slots": [
                         "knowit_cloud",
                         "sky_ting",
@@ -36,14 +36,14 @@
                       ]
                     },
                     {
-                      "room": "UX & Dev Coop",
+                      "room": "UX & Dev Coop - rom 219",
                       "slots": [
                         "ux_utvikler",
                         "fuse"
                       ]
                     },
                     {
-                      "room": "Kanban (del 1)",
+                      "room": "Kanban (del 1) - rom 216",
                       "slots": [
                         "kanban_workshop"
                       ]
@@ -58,7 +58,7 @@
           "time": "15:15-16:15 Fag",
           "entries": [
             {
-              "room": "Code & Frameworks",
+              "room": "Code & Frameworks - rom Diamant 1",
               "slots": [
                 "clean_code",
                 "final_const",
@@ -66,7 +66,7 @@
               ]
             },
             {
-              "room": "Tools",
+              "room": "Tools - rom Diamant 2/3",
               "slots": [
                 "beyond_compare",
                 "git",
@@ -74,7 +74,7 @@
               ]
             },
             {
-              "room": "Frontend",
+              "room": "Frontend - rom 219",
               "slots": [
                 "storybook",
                 "elm",
@@ -82,7 +82,7 @@
               ]
             },
             {
-              "room": "Kanban (del 2)",
+              "room": "Kanban (del 2) - rom 216",
               "slots": [
                 "kanban_workshop"
               ]
@@ -97,7 +97,7 @@
           "time": "16:30-18:00 Intro til Open Space og lage program, så Open Space",
           "entries": [
             {
-              "room": "Alle rom",
+              "room": "Rom Diamant 2+3",
               "slots": [
                 "openspace"
               ]
@@ -129,7 +129,7 @@
           "time": "10:00-10:30 God morgen & fagstrategi 😴",
           "entries": [
             {
-              "room": "Felles",
+              "room": "Rom Diamant 2+3",
               "slots": [
                 "fagstrategi"
               ]
@@ -144,7 +144,7 @@
           "time": "10:45-11:45 Foredrag",
           "entries": [
             {
-              "room": "Felles",
+              "room": "Rom Diamant 2+3",
               "slots": [
                 "presentasjonsteknikk"
               ]
@@ -155,7 +155,7 @@
           "time": "12:00-13:00 Fag",
           "entries": [
             {
-              "room": "Arkitektur & metode",
+              "room": "Arkitektur & metode - rom Diamant 1",
               "slots": [
                 "arne",
                 "event_source",
@@ -163,7 +163,7 @@
               ]
             },
             {
-              "room": "Other Languages",
+              "room": "Other Languages - rom Diamant 2/3",
               "slots": [
                 "sql",
                 "kotlin",
@@ -171,7 +171,7 @@
               ]
             },
             {
-              "room": "Soft skills",
+              "room": "Soft skills - rom 219",
               "slots": [
                 "prosjekt_faggruppe",
                 "mlaas",
