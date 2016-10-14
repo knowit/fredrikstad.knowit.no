@@ -126,12 +126,12 @@
       "day": "Lørdag 15. oktober",
       "collections": [
         {
-          "time": "10:00-10:30 God morgen & fagstrategi 😴",
+          "time": "10:00-10:30 God morgen & fag 😴",
           "entries": [
             {
               "room": "Rom Diamant 2+3",
               "slots": [
-                "fagstrategi"
+                "fag"
               ]
             }
           ]
@@ -188,7 +188,7 @@
     }
   ],
   "talks": {
-    "fagstrategi": {
+    "fag": {
       "pending": false,
       "speakers": [
         {
@@ -204,7 +204,7 @@
           "email": "hfs@knowit.no"
         }
       ],
-      "title": "Fagstrategi",
+      "title": "Fag (og litt salg og marked)",
       "type": "Foredrag (30 min)",
       "description": "Hva skal vi jobbe med fremover og hvordan skal vi jobbe? Stikkord er autonome team og kontinuerlig forbedring av kundens produkter!"
     },
