@@ -66,9 +66,9 @@
               ]
             },
             {
-              "room": "Tools - rom Diamant 2/3",
+              "room": "Tools & div - rom Diamant 2/3",
               "slots": [
-                "beyond_compare",
+                "max",
                 "git",
                 "postman"
               ]
@@ -163,11 +163,11 @@
               ]
             },
             {
-              "room": "Other Languages - rom Diamant 2/3",
+              "room": "Other Languages & div - rom Diamant 2/3",
               "slots": [
                 "sql",
                 "kotlin",
-                "max"
+                "beyond_compare"
               ]
             },
             {
